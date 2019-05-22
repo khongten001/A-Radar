@@ -142,7 +142,56 @@ inherited frmEditCredential: TfrmEditCredential
       4BE27F3EA6F4A0DC28A528F8EB227E52042956735FE31FC5C03EF01CB6035900
       00000049454E44AE426082}
   end
-  object btnCancel: TPngBitBtn [4]
+  object leName: TLabeledEdit [4]
+    Tag = 3
+    Left = 144
+    Top = 20
+    Width = 370
+    Height = 21
+    EditLabel.Width = 6
+    EditLabel.Height = 13
+    EditLabel.Caption = '*'
+    LabelPosition = lpLeft
+    TabOrder = 0
+  end
+  object leDomain: TLabeledEdit [5]
+    Tag = 6
+    Left = 144
+    Top = 100
+    Width = 370
+    Height = 21
+    EditLabel.Width = 6
+    EditLabel.Height = 13
+    EditLabel.Caption = '*'
+    LabelPosition = lpLeft
+    TabOrder = 3
+  end
+  object lePassword: TLabeledEdit [6]
+    Tag = 5
+    Left = 144
+    Top = 76
+    Width = 345
+    Height = 21
+    EditLabel.Width = 6
+    EditLabel.Height = 13
+    EditLabel.Caption = '*'
+    LabelPosition = lpLeft
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object leUsername: TLabeledEdit [7]
+    Tag = 4
+    Left = 144
+    Top = 52
+    Width = 370
+    Height = 21
+    EditLabel.Width = 6
+    EditLabel.Height = 13
+    EditLabel.Caption = '*'
+    LabelPosition = lpLeft
+    TabOrder = 1
+  end
+  object btnCancel: TPngBitBtn [8]
     Tag = 2
     Left = 439
     Top = 144
@@ -179,60 +228,11 @@ inherited frmEditCredential: TfrmEditCredential
       84CAA9D04586D6F8A4495A04E0A804D3A4B3FA8479B44E122F99463F84760CFE
       BFC6FC623FE02F5A2739F0E42306780000000049454E44AE426082}
   end
-  object leUsername: TLabeledEdit [5]
-    Tag = 4
-    Left = 144
-    Top = 52
-    Width = 370
-    Height = 21
-    EditLabel.Width = 6
-    EditLabel.Height = 13
-    EditLabel.Caption = '*'
-    LabelPosition = lpLeft
-    TabOrder = 1
-  end
-  object lePassword: TLabeledEdit [6]
-    Tag = 5
-    Left = 144
-    Top = 76
-    Width = 345
-    Height = 21
-    EditLabel.Width = 6
-    EditLabel.Height = 13
-    EditLabel.Caption = '*'
-    LabelPosition = lpLeft
-    PasswordChar = '*'
-    TabOrder = 2
-  end
-  object leDomain: TLabeledEdit [7]
-    Tag = 6
-    Left = 144
-    Top = 100
-    Width = 370
-    Height = 21
-    EditLabel.Width = 6
-    EditLabel.Height = 13
-    EditLabel.Caption = '*'
-    LabelPosition = lpLeft
-    TabOrder = 3
-  end
-  object leName: TLabeledEdit [8]
-    Tag = 3
-    Left = 144
-    Top = 20
-    Width = 370
-    Height = 21
-    EditLabel.Width = 6
-    EditLabel.Height = 13
-    EditLabel.Caption = '*'
-    LabelPosition = lpLeft
-    TabOrder = 0
-  end
   inherited ICSLanguages1: TICSLanguages
     Languages = <
       item
         Strings.Strings = (
-          'Edit Credential'
+          'Credential'
           'Ok'
           'Cancel'
           'Name:'

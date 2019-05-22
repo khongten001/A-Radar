@@ -3,8 +3,7 @@ unit uClasses;
 interface
 
 uses
-  Windows, Messages, Classes, SysUtils, Vcl.ComCtrls, WinSock,
-  XML.XMLIntf;
+  Windows, Messages, Classes, SysUtils, Vcl.ComCtrls, XML.XMLIntf;
 
 const
   APP_CLSID = '{DEB2B07E-46E6-4F35-92FB-21739786925A}';
@@ -67,6 +66,12 @@ const
   ND_CHECK_MODIFIED                                     = 'checkModified';
   ND_CREDENTIALS                                        = 'credentials';
   ND_CREDENTIAL_ID                                      = 'credentialId';
+  ND_ALERT_ID                                           = 'alertId';
+  ND_SILENT_COUNT                                       = 'silentCount';
+  ND_SCREEN_MSG                                         = 'screenMessage';
+  ND_SEND_MAIL                                          = 'sendMail';
+  ND_SEND_SMS                                           = 'sendSMS';
+  ND_GOOD_ALERT                                         = 'goodAlert';
 
   ND_PARAM_VALUE                                        = 'value';
   ND_PARAM_ID                                           = 'id';
@@ -251,14 +256,7 @@ const
   AR_MESSAGE_RECREATE_USER_INTERFACE = WM_USER + $0B;
   AR_MESSAGE_CLOSE = WM_USER + $0C;
 
-const
-  AR_CONNECT_SUCCESS = 1;
-  AR_CONNECT_FAIL = 0;
-  AR_CONNECT_TIMEOUT = -1;
-  AR_CONNECT_SENDRECEIVE_FAIL = -2;
-
 var
-  WSAD: TWSAData;
   PMemFile: ^TMemFile;
   FXML: IXMLDocument = nil;
   GlobalSleepPause: DWORD = 1000;
@@ -276,8 +274,6 @@ procedure CloseSharedFile;
 function GetAutoStart: Boolean;
 procedure SetAutoStart(AutoStart: Boolean);
 
-function ConnectTimeOut(InHost: String; InPort: Integer; msTimeout: Integer; SendReceive: Boolean; ToSend: String; var ToReceive: String): Integer;
-
 function GetSoftNodeFromId(SoftId: String): IXMLNode;
 function GetProtocolNodeFromId(ProtocolId: String): IXMLNode;
 function GetDisplayProtocolName(iProtocolNode: IXMLNode): String;
@@ -288,7 +284,7 @@ function BuildFullPath(const Host, Resources: String): String;
 implementation
 
 uses
-  WinINet, ActiveX, ShlObj, uCommonTools, ShellAPI, uRegLite, uXMLTools, uRegistry;
+  WinINet, ActiveX, ShlObj, uCommonTools, ShellAPI, uRegLite, uXMLTools, uRegistry, uWinSocket;
 
 { --- }
 
@@ -347,75 +343,6 @@ end;
 procedure SetAutoStart(AutoStart: Boolean);
 begin
   if AutoStart then RegSetString(HKEY_CURRENT_USER, REG_AUTORUN_KEY, APP_NAME, '"' + ParamStr(0) + '"') else RegDelValue(HKEY_CURRENT_USER, REG_AUTORUN_KEY, APP_NAME);
-end;
-
-function ConnectTimeOut(InHost: String; InPort: Integer; msTimeout: Integer; SendReceive: Boolean; ToSend: String; var ToReceive: String): Integer;
- const
-   BUFFER_LENGTH = 8192;
-   SLEEP_PAUSE = 100;
- var
-   Sock: TSocket;
-   Timeout: TTimeVal;
-   Addr: TSockAddrIn;
-   setW, setE: TFDSet;
-   Block, iRecv: LongInt;
-   HostEnt: PHostEnt;
-   InAddr: TInAddr;
-   Buffer: array[0..BUFFER_LENGTH - 1] of AnsiChar;
-   Received: String;
-begin
-  Result := AR_CONNECT_FAIL;
-  Sock := socket(AF_INET, SOCK_STREAM, IPPROTO_IP);
-  if Sock <> INVALID_SOCKET then try
-    Addr.sin_family := AF_INET;
-    if icsGetStringWithoutChars(InHost, '.') = icsExtractDigits(InHost) then Addr.sin_addr.S_addr := inet_addr(PAnsiChar(AnsiString(InHost))) else begin
-      HostEnt := gethostbyname(PAnsiChar(AnsiString(InHost)));
-      FillChar(InAddr, SizeOf(InAddr), 0);
-      if HostEnt <> nil then with InAddr, HostEnt^ do begin
-        S_un_b.s_b1 := h_addr^[0];
-        S_un_b.s_b2 := h_addr^[1];
-        S_un_b.s_b3 := h_addr^[2];
-        S_un_b.s_b4 := h_addr^[3];
-      end;
-      Addr.sin_addr := InAddr;
-    end;
-    Addr.sin_port := htons(InPort);
-    Block := 1;
-    if ioctlsocket(Sock, FIONBIO, Block) = 0 then try
-      connect(Sock, Addr, SizeOf(Addr));
-      if WSAGetLastError = WSAEWOULDBLOCK then begin
-        FD_ZERO(setW);
-        FD_SET(Sock, setW);
-        FD_ZERO(setE);
-        FD_SET(Sock, setE);
-        Timeout.tv_sec := msTimeout div 1000;
-        Timeout.tv_usec := (msTimeout mod 1000) * 1000;
-        select(0, nil, @setW, @setE, @Timeout);
-        if FD_ISSET(Sock, setW) then Result := AR_CONNECT_SUCCESS else if FD_ISSET(Sock, setE) then Result := AR_CONNECT_FAIL else Result := AR_CONNECT_TIMEOUT;
-        if (Result = 1) and SendReceive then begin
-          if ToSend <> '' then begin
-            Sleep(SLEEP_PAUSE);
-            send(Sock, ToSend[1], Length(ToSend), 0);
-          end;
-          Received := '';
-          repeat
-            ZeroMemory(@Buffer, SizeOf(Buffer));
-            Sleep(SLEEP_PAUSE);
-            iRecv := recv(Sock, Buffer[0], SizeOf(Buffer), 0);
-            if (iRecv > 0) and (iRecv <> INVALID_SOCKET) then Received := Received + Trim(String(Buffer));
-          until ((iRecv <= 0) or (iRecv = INVALID_SOCKET));
-          if Trim(Received) <> Trim(ToReceive) then Result := AR_CONNECT_SENDRECEIVE_FAIL;
-          ToReceive := Received;
-        end;
-      end;
-    finally
-      Block := 0;
-      ioctlsocket(Sock, FIONBIO, Block);
-    end;
-  finally
-    shutdown(Sock, SD_BOTH);
-    closesocket(Sock);
-  end;
 end;
 
 { Replace Templates }
@@ -1098,16 +1025,45 @@ begin
   if FEvent <> 0 then SetEvent(FEvent);
 end;
 
+{procedure SendEMail;
+var
+  SMTP: TIdSMTP;
+  Msg: TIdMessage;
+begin
+  if FileExists(AImage) then begin
+    Msg := TIdMessage.Create(nil);
+    try
+      Msg.From.Address := 'xxxx@gmail.com';
+      Msg.Recipients.EMailAddresses := 'xxxx@gmail.com';
+      Msg.Body.Text := Comment;
+      TIdAttachmentFile.Create(Msg.MessageParts, AImage);
+      Msg.Subject := AImage;
+      SMTP := TIdSMTP.Create(nil);
+      try
+        SMTP.Host := 'smtp.gmail.com';
+        SMTP.Port := 25;
+        SMTP.AuthType := satDefault;
+        SMTP.Username := 'xxxx@gmail.com';
+        SMTP.Password := '@#$%';
+        SMTP.Connect;
+        SMTP.Send(Msg);
+      finally
+        SMTP.Free;
+      end;
+    finally
+      Msg.Free;
+    end;
+  end;
+end;}
+
 initialization
 
-  WSAStartup($0101, WSAD);
   ARObjectList :=  TARObjectList.Create;
   CoInitializeEx(nil, COINIT_APARTMENTTHREADED);
 
 finalization
 
   ARObjectList.Free;
-  WSACleanUp;
   CoUninitialize;
 
 end.

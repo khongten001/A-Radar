@@ -64,6 +64,7 @@ type
     procedure ApplyItemParams(LI: TListItem);
     function EditCredentialNode(iNode: IXMLNode): Integer;
     procedure AddNewListItem(iNode: IXMLNode);
+    function EditAlertNode(iNode: IXMLNode): Integer;
   public
   end;
 
@@ -76,7 +77,7 @@ implementation
 
 uses
   uCommonTools, uRegLite, uRegistry, uEditSoft, uEditProtocol, uXMLTools,
-  uEditCredential;
+  uEditCredential, uEditAlert;
 
 procedure TfrmDataManager.AddNewListItem(iNode: IXMLNode);
  var LI: TListItem;
@@ -101,6 +102,7 @@ begin
       dtProtocols: B := (EditProtNode(iNode) = mrOk);
       dtSoftware: B := (EditSoftNode(iNode) = mrOk);
       dtCredentials: B := (EditCredentialNode(iNode) = mrOk);
+      dtAlerts: B := (EditAlertNode(iNode) = mrOk);
     end;
     if B then AddNewListItem(iNode) else FXMLNodeData.ChildNodes.Remove(iNode);
   end;
@@ -132,6 +134,7 @@ begin
       dtProtocols:  B := (EditProtNode(IXMLNode(LV.Selected.Data)) = mrOk);
       dtSoftware: B := (EditSoftNode(IXMLNode(LV.Selected.Data)) = mrOk);
       dtCredentials: B := (EditCredentialNode(IXMLNode(LV.Selected.Data)) = mrOk);
+      dtAlerts: B := (EditAlertNode(IXMLNode(LV.Selected.Data)) = mrOk);
     end;
     if B then ApplyItemParams(LV.Selected);
   end;
@@ -172,6 +175,10 @@ begin
       dtCredentials: begin
         LI.Caption := icsB64Decode(xmlGetItemString(IXMLNode(LI.Data).ChildNodes[ND_NAME], ND_PARAM_VALUE));
         PngImageListCredentials.GetIcon(0, Ico);
+      end;
+      dtAlerts: begin
+        LI.Caption := icsB64Decode(xmlGetItemString(IXMLNode(LI.Data).ChildNodes[ND_NAME], ND_PARAM_VALUE));
+//        PngImageListCredentials.GetIcon(0, Ico);
       end;
     end;
     if Ico.Handle = 0 then PngImageListDefaults.GetIcon(Ord(FARDataType), Ico);
@@ -216,6 +223,18 @@ begin
     if Result = mrOk then frmEditCredential.ApplyXML;
   finally
     frmEditCredential.Release;
+  end;
+end;
+
+function TfrmDataManager.EditAlertNode(iNode: IXMLNode): Integer;
+begin
+  frmEditAlert := TfrmEditAlert.Create(Self);
+  try
+    frmEditAlert.AlertXMLNode := iNode;
+    Result := frmEditAlert.ShowModal;
+    if Result = mrOk then frmEditAlert.ApplyXML;
+  finally
+    frmEditAlert.Release;
   end;
 end;
 

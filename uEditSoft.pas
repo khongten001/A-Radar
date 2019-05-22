@@ -71,7 +71,7 @@ begin
   FSoftXMLNode.ChildNodes[ND_PROTOCOLS].ChildNodes.Clear;
   for I := 0 to lvProtocols.Items.Count - 1 do if lvProtocols.Items[I].Checked then begin
     iNode := FSoftXMLNode.ChildNodes[ND_PROTOCOLS].AddChild(ND_ITEM);
-    xmlSetItemString(iNode, ND_PARAM_VALUE, lvProtocols.Items[I].SubItems[0]);
+    xmlSetItemString(iNode, ND_PARAM_VALUE, xmlGetItemString(IXMLNode(lvProtocols.Items[I].Data), ND_PARAM_ID));
   end;
 
   xmlSetItemString(FSoftXMLNode.ChildNodes[ND_PARAMSTRINGS1], ND_PARAM_VALUE, icsB64Encode(SynEditDefaultParams1.Lines.Text));
@@ -95,7 +95,7 @@ end;
 
 procedure TfrmEditSoft.FillControls;
  var
-   I, J, SubIdx: Integer;
+   I, J: Integer;
    iNode: IXMLNode;
    LI: TListItem;
 begin
@@ -113,13 +113,11 @@ begin
       LI := lvProtocols.Items.Add;
       LI.Caption := GetDisplayProtocolName(iNode);
       LI.ImageIndex := xmlGetItemInteger(iNode.ChildNodes[ND_LOCATION_ID], ND_PARAM_VALUE);
-      SubIdx := LI.SubItems.Add(xmlGetItemString(iNode, ND_PARAM_ID));
-
-      for J := 0 to FSoftXMLNode.ChildNodes[ND_PROTOCOLS].ChildNodes.Count - 1 do if xmlGetItemString(FSoftXMLNode.ChildNodes[ND_PROTOCOLS].ChildNodes[J], ND_PARAM_VALUE) = LI.SubItems[SubIdx] then begin
+      LI.Data := Pointer(iNode);
+      for J := 0 to FSoftXMLNode.ChildNodes[ND_PROTOCOLS].ChildNodes.Count - 1 do if xmlGetItemString(FSoftXMLNode.ChildNodes[ND_PROTOCOLS].ChildNodes[J], ND_PARAM_VALUE) = xmlGetItemString(iNode, ND_PARAM_ID) then begin
         LI.Checked := True;
         Break;
       end;
-
     end;
   finally
     lvProtocols.Items.EndUpdate;

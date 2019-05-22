@@ -102,7 +102,7 @@ implementation
 {$R *.dfm}
 
 uses
-  WinINet, uCommonTools, uVCLTools, IdURI, uXMLTools, uRegistry, uRegDlg;
+  WinINet, uCommonTools, uVCLTools, IdURI, uXMLTools, uRegistry, uRegDlg, uWinSocket;
 
 { TfrmEditHost }
 
