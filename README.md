@@ -1,5 +1,5 @@
 # A-Radar
-Connection Manager and Monitor
+Remote Connection Manager and Monitor
 
 https://www.facebook.com/aradar.software
 
