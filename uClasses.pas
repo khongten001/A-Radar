@@ -131,6 +131,12 @@ type
     DefaultParamsStrings1: String;
   end;
 
+  TARObjectStateData = record
+    LastCheckTicks: DWORD;
+    LastOnlineTicks: DWORD;
+    OfflineCount: Integer;
+  end;
+
   TARObjectList = class(TList)
   private
     function GetARObject(Index: Integer): TARObject;
@@ -184,6 +190,7 @@ type
     FActive: Boolean;
     FCheckStateThread: TARCheckStateThread;
     FOpenInProgress: Boolean;
+    FStateData: TARObjectStateData;
     procedure SetState(const Value: TARObjectState);
     procedure SetActive(const Value: Boolean);
     procedure DoActive;
@@ -194,6 +201,7 @@ type
     procedure BuildARDataRec(var ARObjectData: TARObjectData);
     function GetCheckModified: Boolean;
     function GetModified: Boolean;
+    procedure DoCheckAlert;
   public
     constructor Create(XMLNode: IXMLNode);
     destructor Destroy; override;
@@ -276,6 +284,7 @@ procedure SetAutoStart(AutoStart: Boolean);
 
 function GetSoftNodeFromId(SoftId: String): IXMLNode;
 function GetProtocolNodeFromId(ProtocolId: String): IXMLNode;
+function GetAlertNodeFromId(sId: String): IXMLNode;
 function GetDisplayProtocolName(iProtocolNode: IXMLNode): String;
 function GetRegRootKeyFromString(RK: String): HKEY;
 
@@ -601,12 +610,31 @@ end;
 procedure TARObject.DoActive;
 begin
   if FActive then begin
-    if not Assigned(FCheckStateThread) then FCheckStateThread := TARCheckStateThread.Create(Self);// else TerminateCheckStateThread;
+    if not Assigned(FCheckStateThread) then begin
+      FillChar(FStateData, SizeOf(FStateData), 0);
+      FCheckStateThread := TARCheckStateThread.Create(Self);
+    end;
   end else begin
     TerminateCheckStateThread;
     SetState(aroInactive);
   end;
   SendMessage(PMemFile^.MainHandle, AR_MESSAGE_SETACTIVE, Integer(Self), Integer(FActive));
+end;
+
+procedure TARObject.DoCheckAlert;
+ var
+   iNode: IXMLNode;
+   SilentCount: Integer;
+begin
+  iNode := GetAlertNodeFromId(xmlGetItemString(FXMLNode.ChildNodes[ND_ALERT_ID], ND_PARAM_VALUE));
+  if Assigned(iNode) then begin
+    SilentCount := xmlGetItemInteger(iNode.ChildNodes[ND_SILENT_COUNT], ND_PARAM_VALUE);
+    if FStateData.OfflineCount > SilentCount then begin
+      case FState of
+        aroOffline: ; //alert!
+      end;
+    end;
+  end;
 end;
 
 procedure TARObject.DoCheckState;
@@ -658,9 +686,19 @@ begin
         end;
       end;
 
+      FStateData.LastCheckTicks := GetTickCount;
       if not FActive then SetState(aroInactive) else begin
-        if bCheckSuccess then SetState(aroOnline) else SetState(aroOffline);
+        if bCheckSuccess then begin
+          FStateData.LastOnlineTicks := FStateData.LastCheckTicks;
+          FStateData.OfflineCount := 0;
+          SetState(aroOnline);
+        end else begin
+          Inc(FStateData.OfflineCount);
+          SetState(aroOffline);
+        end;
       end;
+
+      if xmlGetItemBoolean(FXMLNode.ChildNodes[ND_ALERTS], ND_PARAM_VALUE) then DoCheckAlert;
 
     except
       SetState(aroOffline);
@@ -818,6 +856,19 @@ begin
   Result := nil;
   iNode := FXML.DocumentElement.ChildNodes[ND_PROTOCOLS];
   for I := 0 to iNode.ChildNodes.Count - 1 do if xmlGetItemString(iNode.ChildNodes[I], ND_PARAM_ID) = ProtocolId then begin
+    Result := iNode.ChildNodes[I];
+    Break;
+  end;
+end;
+
+function GetAlertNodeFromId(sId: String): IXMLNode;
+ var
+   I: Integer;
+   iNode: IXMLNode;
+begin
+  Result := nil;
+  iNode := FXML.DocumentElement.ChildNodes[ND_ALERTS];
+  for I := 0 to iNode.ChildNodes.Count - 1 do if xmlGetItemString(iNode.ChildNodes[I], ND_PARAM_ID) = sId then begin
     Result := iNode.ChildNodes[I];
     Break;
   end;

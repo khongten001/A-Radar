@@ -10,7 +10,8 @@ uses
   Vcl.ComCtrls, SynEditHighlighter, SynHighlighterURI, SynEditMiscClasses,
   SynEditSearch,
   uClasses, Vcl.Buttons, PngSpeedButton, ICSSpinLabeledEdit, PngBitBtn,
-  System.ImageList, Vcl.ImgList, PngImageList, ICSBrowseFolder, Vcl.Menus;
+  System.ImageList, Vcl.ImgList, PngImageList, ICSBrowseFolder, Vcl.Menus,
+  Vcl.Imaging.pngimage;
 
 type
   TfrmEditHost = class(TfrmForm)
@@ -36,32 +37,37 @@ type
     ICSLanguagesProtocols: TICSLanguages;
     leResources: TLabeledEdit;
     btnDefaultPort: TPngBitBtn;
-    cbSendReceive: TCheckBox;
-    leSendString: TLabeledEdit;
-    leReceiveString: TLabeledEdit;
-    btnCheckConnection: TPngBitBtn;
     ICSLanguagesResult: TICSLanguages;
-    cbRunAsAdmin: TCheckBox;
     btnParse: TPngBitBtn;
     cbProtocol: TComboBoxEx;
     LabelProtocol: TLabel;
     cbActive: TCheckBox;
-    cbSoftware: TComboBoxEx;
     leDomain: TLabeledEdit;
     TabSheet3: TTabSheet;
     SynEditParamFile1: TSynEdit;
     PngImageListLocations: TPngImageList;
     PngImageListSoftware: TPngImageList;
-    cbCheckModified: TCheckBox;
     btnBrowse: TPngBitBtn;
     ICSBrowseFolder1: TICSBrowseFolder;
-    cbShowWindow: TComboBox;
-    Label1: TLabel;
-    Label2: TLabel;
     ICSLanguagesShowWindow: TICSLanguages;
     btnCredentials: TPngBitBtn;
     PopupMenuCredentials: TPopupMenu;
     PngImageListCredentials: TPngImageList;
+    PngImageListAlerts: TPngImageList;
+    TabSheet4: TTabSheet;
+    cbSendReceive: TCheckBox;
+    leSendString: TLabeledEdit;
+    leReceiveString: TLabeledEdit;
+    cbCheckModified: TCheckBox;
+    cbUseAlerts: TCheckBox;
+    cbAlerts: TComboBoxEx;
+    PngImageListTabs: TPngImageList;
+    Label1: TLabel;
+    Label2: TLabel;
+    cbRunAsAdmin: TCheckBox;
+    cbSoftware: TComboBoxEx;
+    cbShowWindow: TComboBox;
+    btnCheckConnection: TPngBitBtn;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure cbServiceChange(Sender: TObject);
@@ -69,7 +75,6 @@ type
       Shift: TShiftState; X, Y: Integer);
     procedure sbShowPWDMouseUp(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
-    procedure cbSoftwareChange(Sender: TObject);
     procedure btnDefaultPortClick(Sender: TObject);
     procedure btnCheckConnectionClick(Sender: TObject);
     procedure btnParseClick(Sender: TObject);
@@ -80,6 +85,7 @@ type
     procedure btnCredentialsClick(Sender: TObject);
     procedure PopupMenuCredentialsPopup(Sender: TObject);
     procedure PageControlMainChange(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     FXMLNode: IXMLNode;
     FMultiEdit: Boolean;
@@ -258,17 +264,6 @@ begin
   SetControlEnables;
 end;
 
-procedure TfrmEditHost.cbSoftwareChange(Sender: TObject);
- var
-   FN: String;
-   iSoftNode: IXMLNode;
-begin
-  inherited;
-  iSoftNode := GetSoftNodeFromId(xmlGetItemString(IXMLNode(cbSoftware.ItemsEx[cbSoftware.ItemIndex].Data), ND_PARAM_ID));
-  FN := icsB64Decode(xmlGetItemString(iSoftNode.ChildNodes[ND_PATH], ND_PARAM_VALUE));
-  if FileExists(FN) then ImageLogo.Picture.Icon.Handle := icsGetIconHandleFromFileName(FN, False) else ImageLogo.Picture.Icon.Assign(Application.Icon);
-end;
-
 procedure TfrmEditHost.cbServiceChange(Sender: TObject);
 begin
   inherited;
@@ -287,6 +282,7 @@ begin
   cbRunAsAdmin.AllowGrayed := FMultiEdit;
   cbSendReceive.AllowGrayed := FMultiEdit;
   cbCheckModified.AllowGrayed := FMultiEdit;
+  cbUseAlerts.AllowGrayed := FMultiEdit;
 
   leName.Text := xmlGetItemString(FXMLNode.ChildNodes[ND_NAME], ND_PARAM_VALUE);
   leHost.Text := xmlGetItemString(FXMLNode.ChildNodes[ND_HOST], ND_PARAM_VALUE);
@@ -298,6 +294,7 @@ begin
   leUsername.Text := xmlGetItemString(FXMLNode.ChildNodes[ND_USERNAME], ND_PARAM_VALUE);
   lePassword.Text := xmlGetItemString(FXMLNode.ChildNodes[ND_PASSWORD], ND_PARAM_VALUE);
   leDomain.Text := xmlGetItemString(FXMLNode.ChildNodes[ND_DOMAIN], ND_PARAM_VALUE);
+  cbUseAlerts.State := TCheckBoxState(xmlGetItemInteger(FXMLNode.ChildNodes[ND_ALERTS], ND_PARAM_VALUE));
   cbCheckModified.State := TCheckBoxState(xmlGetItemInteger(FXMLNode.ChildNodes[ND_CHECK_MODIFIED], ND_PARAM_VALUE));
   cbSendReceive.State := TCheckBoxState(xmlGetItemInteger(FXMLNode.ChildNodes[ND_SENDRECEIVE], ND_PARAM_VALUE));
   leSendString.Text := icsB64Decode(xmlGetItemString(FXMLNode.ChildNodes[ND_SENDSTRING], ND_PARAM_VALUE));
@@ -319,8 +316,23 @@ begin
       cbProtocol.ItemIndex := I;
       Break
     end;
-    if cbProtocol.ItemIndex >= 0 then cbProtocol.OnClick(Self);
+    if (cbProtocol.ItemIndex >= 0) and Assigned(cbProtocol.OnClick) then cbProtocol.OnClick(Self);
   end;
+
+  cbAlerts.Clear;
+  iNode := FXML.DocumentElement.ChildNodes[ND_ALERTS];
+  for I := 0 to iNode.ChildNodes.Count - 1 do begin
+    Idx := 0;//xmlGetItemInteger(iNode.ChildNodes[I].ChildNodes[ND_LOCATION_ID], ND_PARAM_VALUE);
+    cbAlerts.ItemsEx.AddItem(icsB64Decode(xmlGetItemString(iNode.ChildNodes[I].ChildNodes[ND_NAME], ND_PARAM_VALUE)), Idx, Idx, Idx, 0, Pointer(iNode.ChildNodes[I]));
+  end;
+  if not MultiEdit then begin
+    for I := 0 to cbAlerts.ItemsEx.Count - 1 do if xmlGetItemString(IXMLNode(cbAlerts.ItemsEx[I].Data), ND_PARAM_ID) = xmlGetItemString(FXMLNode.ChildNodes[ND_ALERT_ID], ND_PARAM_VALUE) then begin
+      cbAlerts.ItemIndex := I;
+      Break
+    end;
+    if (cbAlerts.ItemIndex >= 0) and Assigned(cbAlerts.OnClick) then cbAlerts.OnClick(Self);
+  end;
+
 end;
 
 procedure TfrmEditHost.ApplyXML;
@@ -337,6 +349,7 @@ begin
   xmlSetItemString(FXMLNode.ChildNodes[ND_USERNAME], ND_PARAM_VALUE, leUsername.Text);
   xmlSetItemString(FXMLNode.ChildNodes[ND_PASSWORD], ND_PARAM_VALUE, lePassword.Text);
   xmlSetItemString(FXMLNode.ChildNodes[ND_DOMAIN], ND_PARAM_VALUE, leDomain.Text);
+  xmlSetItemInteger(FXMLNode.ChildNodes[ND_ALERTS], ND_PARAM_VALUE, Ord(cbUseAlerts.State));
   xmlSetItemInteger(FXMLNode.ChildNodes[ND_CHECK_MODIFIED], ND_PARAM_VALUE, Ord(cbCheckModified.State));
   xmlSetItemInteger(FXMLNode.ChildNodes[ND_SENDRECEIVE], ND_PARAM_VALUE, Ord(cbSendReceive.State));
   xmlSetItemString(FXMLNode.ChildNodes[ND_SENDSTRING], ND_PARAM_VALUE, icsB64Encode(leSendString.Text));
@@ -349,6 +362,7 @@ begin
 
   if cbProtocol.ItemIndex >= 0 then xmlSetItemString(FXMLNode.ChildNodes[ND_PROTOCOL_ID], ND_PARAM_VALUE, xmlGetItemString(IXMLNode(cbProtocol.ItemsEx[cbProtocol.ItemIndex].Data), ND_PARAM_ID));
   if cbSoftware.ItemIndex >= 0 then xmlSetItemString(FXMLNode.ChildNodes[ND_SOFT_ID], ND_PARAM_VALUE, xmlGetItemString(IXMLNode(cbSoftware.ItemsEx[cbSoftware.ItemIndex].Data), ND_PARAM_ID));
+  if cbAlerts.ItemIndex >= 0 then xmlSetItemString(FXMLNode.ChildNodes[ND_ALERT_ID], ND_PARAM_VALUE, xmlGetItemString(IXMLNode(cbAlerts.ItemsEx[cbAlerts.ItemIndex].Data), ND_PARAM_ID));
 end;
 
 procedure TfrmEditHost.SetControlEnables;
@@ -361,14 +375,21 @@ begin
   btnCheckConnection.Enabled := not FMultiEdit and (FCurrentObjectLocation in [olNetwork]);
   cbCheckModified.Enabled := FMultiEdit or (FCurrentObjectLocation in [olLocalOrShared, olRegistry]);
   btnBrowse.Enabled := FMultiEdit or (FCurrentObjectLocation in [olLocalOrShared, olRegistry]);
+  cbAlerts.Enabled := cbUseAlerts.Checked;
+end;
+
+procedure TfrmEditHost.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+  inherited;
+  xmlSetItemInteger(FXML.DocumentElement.ChildNodes[ND_SOFTWARE], ND_PARAM_LAST_PAGE_IDX, PageControlMain.TabIndex);
 end;
 
 procedure TfrmEditHost.FormCreate(Sender: TObject);
 begin
   inherited;
-  PageControlMain.ActivePageIndex := 0;
+  PageControlMain.ActivePageIndex := xmlGetItemInteger(FXML.DocumentElement.ChildNodes[ND_SOFTWARE], ND_PARAM_LAST_PAGE_IDX);
   FMultiEdit := False;
-  ImageLogo.Picture.Icon.Assign(Application.Icon);
 end;
 
 procedure TfrmEditHost.FormShow(Sender: TObject);
@@ -403,8 +424,8 @@ procedure TfrmEditHost.PageControlMainChange(Sender: TObject);
 begin
   inherited;
   if Visible then case PageControlMain.ActivePageIndex of
-    1: SynEditParamFile1.SetFocus;
-    2: SynEditMemo.SetFocus;
+    2: SynEditParamFile1.SetFocus;
+    3: SynEditMemo.SetFocus;
   end;
 end;
 

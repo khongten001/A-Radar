@@ -658,6 +658,7 @@ begin
                ((S <> IntToStr(Ord(cbGrayed))) or ((NodeName <> ND_SENDRECEIVE)
                                                and (NodeName <> ND_RUNASADMIN)
                                                and (NodeName <> ND_CHECK_MODIFIED)
+                                               and (NodeName <> ND_ALERTS)
                )) then xmlSetItemString(TARObject(ListViewMain.Items[I].Data).XMLNode.ChildNodes[NodeName], ND_PARAM_VALUE, S);
           end;
           ApplyHostParams(ListViewMain.Items[I]);
@@ -1084,6 +1085,8 @@ begin
     iNode.AddChild(ND_USERNAME).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_USERNAME], ND_PARAM_VALUE);
     iNode.AddChild(ND_PASSWORD).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_PASSWORD], ND_PARAM_VALUE);
     iNode.AddChild(ND_DOMAIN).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_DOMAIN], ND_PARAM_VALUE);
+    iNode.AddChild(ND_ALERTS).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_ALERTS], ND_PARAM_VALUE);
+    iNode.AddChild(ND_ALERT_ID).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_ALERT_ID], ND_PARAM_VALUE);
     iNode.AddChild(ND_CHECK_MODIFIED).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_CHECK_MODIFIED], ND_PARAM_VALUE);
     iNode.AddChild(ND_SENDRECEIVE).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_SENDRECEIVE], ND_PARAM_VALUE);
     iNode.AddChild(ND_SENDSTRING).Attributes[ND_PARAM_VALUE] := xmlGetItemString(iSourceNode.ChildNodes[ND_SENDSTRING], ND_PARAM_VALUE);
@@ -1109,6 +1112,7 @@ begin
       iNode.AddChild(ND_CHECK_MODIFIED).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
       iNode.AddChild(ND_SENDRECEIVE).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
       iNode.AddChild(ND_RUNASADMIN).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
+      iNode.AddChild(ND_ALERTS).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
       iNode.AddChild(ND_SHOW_WINDOW).Attributes[ND_PARAM_VALUE] := '-1';
     end else begin
       iNode.AddChild(ND_INTERVAL).Attributes[ND_PARAM_VALUE] := xmlGetItemString(FXML.DocumentElement.ChildNodes[ND_PROPERTIES].ChildNodes[ND_INTERVAL], ND_PARAM_VALUE);
@@ -1120,6 +1124,7 @@ begin
       iNode.AddChild(ND_CHECK_MODIFIED).Attributes[ND_PARAM_VALUE] := '';
       iNode.AddChild(ND_SENDRECEIVE).Attributes[ND_PARAM_VALUE] := '';
       iNode.AddChild(ND_RUNASADMIN).Attributes[ND_PARAM_VALUE] := '';
+      iNode.AddChild(ND_ALERTS).Attributes[ND_PARAM_VALUE] := '';
       iNode.AddChild(ND_SHOW_WINDOW).Attributes[ND_PARAM_VALUE] := '';
     end;
   end;

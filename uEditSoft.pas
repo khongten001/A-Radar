@@ -29,6 +29,7 @@ type
     SynURISyn1: TSynURISyn;
     SynURIOpener1: TSynURIOpener;
     PngImageListLocations: TPngImageList;
+    PngImageListTabs: TPngImageList;
     procedure FormShow(Sender: TObject);
     procedure btnSoftBrowseClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
