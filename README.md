@@ -9,9 +9,9 @@ https://www.facebook.com/aradar.software
 
 A-Radar supports already the following protocols and services:
 
-• RDP (Remote Desktop/Terminal Server)
-• VNC (Virtual Network Computing)
-• ICA (Citrix Independent Computing Architecture)
+- RDP (Remote Desktop/Terminal Server)
+- VNC (Virtual Network Computing)
+- ICA (Citrix Independent Computing Architecture)
 • SSH (Secure Shell)
 • Telnet (TELecommunication NETwork)
 • HTTP/HTTPS (Hypertext Transfer Protocol)
