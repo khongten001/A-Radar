@@ -354,11 +354,12 @@ begin
   xmlSetItemInteger(FXMLNode.ChildNodes[ND_SENDRECEIVE], ND_PARAM_VALUE, Ord(cbSendReceive.State));
   xmlSetItemString(FXMLNode.ChildNodes[ND_SENDSTRING], ND_PARAM_VALUE, icsB64Encode(leSendString.Text));
   xmlSetItemString(FXMLNode.ChildNodes[ND_RECEIVESTRING], ND_PARAM_VALUE, icsB64Encode(leReceiveString.Text));
-  xmlSetItemInteger(FXMLNode.ChildNodes[ND_SHOW_WINDOW], ND_PARAM_VALUE, cbShowWindow.ItemIndex);
   xmlSetItemInteger(FXMLNode.ChildNodes[ND_RUNASADMIN], ND_PARAM_VALUE, Ord(cbRunAsAdmin.State));
 
   xmlSetItemString(FXMLNode.ChildNodes[ND_PARAMSTRINGS1], ND_PARAM_VALUE, icsB64Encode(SynEditParamFile1.Lines.Text));
   xmlSetItemString(FXMLNode.ChildNodes[ND_MEMO], ND_PARAM_VALUE, icsB64Encode(SynEditMemo.Lines.Text));
+
+  if cbShowWindow.ItemIndex >= 0 then xmlSetItemInteger(FXMLNode.ChildNodes[ND_SHOW_WINDOW], ND_PARAM_VALUE, cbShowWindow.ItemIndex);
 
   if cbProtocol.ItemIndex >= 0 then xmlSetItemString(FXMLNode.ChildNodes[ND_PROTOCOL_ID], ND_PARAM_VALUE, xmlGetItemString(IXMLNode(cbProtocol.ItemsEx[cbProtocol.ItemIndex].Data), ND_PARAM_ID));
   if cbSoftware.ItemIndex >= 0 then xmlSetItemString(FXMLNode.ChildNodes[ND_SOFT_ID], ND_PARAM_VALUE, xmlGetItemString(IXMLNode(cbSoftware.ItemsEx[cbSoftware.ItemIndex].Data), ND_PARAM_ID));

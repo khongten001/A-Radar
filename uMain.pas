@@ -1113,7 +1113,6 @@ begin
       iNode.AddChild(ND_SENDRECEIVE).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
       iNode.AddChild(ND_RUNASADMIN).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
       iNode.AddChild(ND_ALERTS).Attributes[ND_PARAM_VALUE] := IntToStr(Ord(cbGrayed));
-      iNode.AddChild(ND_SHOW_WINDOW).Attributes[ND_PARAM_VALUE] := '-1';
     end else begin
       iNode.AddChild(ND_INTERVAL).Attributes[ND_PARAM_VALUE] := xmlGetItemString(FXML.DocumentElement.ChildNodes[ND_PROPERTIES].ChildNodes[ND_INTERVAL], ND_PARAM_VALUE);
       iNode.AddChild(ND_ERRORINTERVAL).Attributes[ND_PARAM_VALUE] := xmlGetItemString(FXML.DocumentElement.ChildNodes[ND_PROPERTIES].ChildNodes[ND_ERRORINTERVAL], ND_PARAM_VALUE);
@@ -1125,8 +1124,8 @@ begin
       iNode.AddChild(ND_SENDRECEIVE).Attributes[ND_PARAM_VALUE] := '';
       iNode.AddChild(ND_RUNASADMIN).Attributes[ND_PARAM_VALUE] := '';
       iNode.AddChild(ND_ALERTS).Attributes[ND_PARAM_VALUE] := '';
-      iNode.AddChild(ND_SHOW_WINDOW).Attributes[ND_PARAM_VALUE] := '';
     end;
+    iNode.AddChild(ND_SHOW_WINDOW).Attributes[ND_PARAM_VALUE] := '-1';
   end;
 end;
 
