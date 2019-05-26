@@ -115,6 +115,7 @@ type
   TARObject = class;
 
   TARObjectData = record
+    Name: String;
     Host: String;
     Resources: string;
     Port: String;
@@ -237,6 +238,7 @@ type
   TARNetworkTool = (ntPing, ntTracert);
 
 const
+  APP_TEMPLATE_NAME                     = '%SELF.NAME%';
   APP_TEMPLATE_HOST                     = '%SELF.HOST%';
   APP_TEMPLATE_RESOURCES                = '%SELF.RESOURCES%';
   APP_TEMPLATE_PATH                     = '%SELF.PATH%';
@@ -512,7 +514,8 @@ procedure TARObject.BuildARDataRec(var ARObjectData: TARObjectData);
     Result := S;
     if Result <> '' then begin
 
-      Result := icsGetReplacedStringEx(S, [APP_TEMPLATE_HOST,
+      Result := icsGetReplacedStringEx(S, [APP_TEMPLATE_NAME,
+                                           APP_TEMPLATE_HOST,
                                            APP_TEMPLATE_PORT,
                                            APP_TEMPLATE_USERNAME,
                                            APP_TEMPLATE_PASSWORD,
@@ -521,7 +524,8 @@ procedure TARObject.BuildARDataRec(var ARObjectData: TARObjectData);
                                            APP_TEMPLATE_RESOURCES
                                           ],
 
-                                          [ARObjectData.Host,
+                                          [ARObjectData.Name,
+                                           ARObjectData.Host,
                                            ARObjectData.Port,
                                            ARObjectData.Username,
                                            ARObjectData.Password,
@@ -546,6 +550,7 @@ procedure TARObject.BuildARDataRec(var ARObjectData: TARObjectData);
 begin
   FillChar(ARObjectData, SizeOf(TARObjectData), 0);
 
+  ARObjectData.Name := icsExpandString(xmlGetItemString(FXMLNode.ChildNodes[ND_NAME], ND_PARAM_VALUE));
   ARObjectData.Host := icsExpandString(xmlGetItemString(FXMLNode.ChildNodes[ND_HOST], ND_PARAM_VALUE));
   ARObjectData.Resources := icsExpandString(xmlGetItemString(FXMLNode.ChildNodes[ND_RESOURCES], ND_PARAM_VALUE));
   ARObjectData.Port := xmlGetItemString(FXMLNode.ChildNodes[ND_PORT], ND_PARAM_VALUE);
