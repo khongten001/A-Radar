@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<aradar>
+	<properties stayOnTop="0" groupView="1" w="263" h="913" x="52" y="52" startMinimized="0" styleID="0"><esTightVNC value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><esFileZilla value="QzpcUHJvZ3JhbSBGaWxlc1xGaWxlWmlsbGEgRlRQIENsaWVudFxmaWxlemlsbGEuZXhl"/><esWinSCP value="RDpcY3J5cHRvRGlyYS5jb21cMFxBRDk4REM0QkQtNEEzOS00NDUxLUE2MDUtQUEwRTZFQjc0MkZB&#xA;XFdpblNDUC5leGU="/><esBrowser value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNzdBQTE5NDEtRUMxNi00RDc2LUI4QjItMjBCREMwODk2RURG&#xA;XEFwcGxpY2F0aW9uXHZpdmFsZGkuZXhl"/><esUltraVNC value="QzpcUHJvZ3JhbSBGaWxlc1x1dm5jIGJ2YmFcVWx0cmFWTkNcdm5jdmlld2VyLmV4ZQ=="/><esRealVNC/><esMSTSC/><esTeamViewer value="QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxUZWFtVmlld2VyXFRlYW1WaWV3ZXIuZXhl"/><esExplorer/>
+		<esBrowserParams value=""/>
+		<esTotalCommander value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNENkE2MjRB&#xA;XHRjLmV4ZQ=="/>
+		<esTotalCommanderParams value="L24gL2k9RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNE&#xA;NkE2MjRBXHdpbmNtZC5pbmkgL2Y9RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00&#xA;NkUxLUI0QUYtQUYyMkNENkE2MjRBXHdjeF9mdHAuaW5p"/>
+		<dataManager x="738" y="246" w="505" h="457" lastPageIdx="1"/></properties>
+	<groups>
+		<group id="2147483647" collapsed="0" iconID="0" w="599" h="907" x="2660" y="229">
+			<name value="Favorites"/>
+			<memo value=""/></group>
+		<group id="2147483646" collapsed="0" iconID="1" w="582" h="406" x="2585" y="224">
+			<name value="General"/>
+			<memo value="VE9EMDoNCg0KLSBTdGF0aXN0aWMNCi0gRXJyb3IgTVNHcw0KLSBSRFAgQ29tcGxldGUNCg0KDQoN&#xA;ClN0ZXZlbjoNCnN0ZXZlbmNoZW5za3kwMUBnbWFpbC5jb20NCmZlb2ZhbjQwNjk5DQoNCg=="/></group>
+		<group id="0" collapsed="1" iconID="21" w="806" h="556" x="645" y="139">
+			<name value="Praxis &quot;Anna Kurganova&quot;"/>
+			<memo value="QW5uYSBLdXJnYW5vdmENCjc4MzJAcHJheGlzLmNkDQoNCkJEOiAxNy4wMS4xOTcxDQoNCg0KVGVs&#xA;ZWtvbToNCg0KS3VuZGVubnVtbWVyOiAyNzMxNTgxMzQ2DQpHZXNjaMOkZnRza3VuZGVuOiAwODAw&#xA;LTMzMDI4NzANCg0KDQpUdXJib01lZCAod3d3LnR1cmJvbWVkLmRlL2Rvd25sb2FkKQ0KQmVudXR6&#xA;ZXI6IGluZm9Aa3VyZ2Fub3ZhLmRlDQpQYXNzd29ydDogNXBmcDUhDQpUTTogMDIxMzEtNDA1NzMw&#xA;MCwgMDIxMzEtNDAxNzQ4NSwgLTQwMTc0MDAsDQpTZXJ2aWNlKzogMDIxMzEtNDA1NzMzMw0KVE0g&#xA;SG90bGluZTogMDQzMS02NTkyMDANClZlcnRyaWI6IC0yMA0KDQpocS1wYXRyb25lbi5kZQ0KYW5u&#xA;YUBjcnlwdG9kaXJhLmNvbQ0KU21pbGVzDQoNCk1lZGljaW5lIFNlcnZpY2UgR21iSA0KMDIxMS02&#xA;NTEwNDEgLSBIci4gUsO2bWVyDQowMjEwMy05NjM4MjkgLSBIci4gQXJvbg0KR0U6IDA4MDAtNDM0&#xA;MzI1OA0KSHIuIExldG5lcywgUmV2b2xlcw0KYW46IFQwMDg1NTczDQpPMiBQSU46IDI0MTcNCldM&#xA;QU4gU1NJRDogUkBBUA0KV0xBTiBQU0s6IDA5NzMyNDMxMDU4MjE2MTgNCg0KSG9tZSByb3V0ZXIg&#xA;cGFzc3c6IDM1NDU0MzM1DQp3bGFuLWtleTogNDQ2NTc0OTU0MTQ0NDg2Nw0KDQoxMzowNjo1MTog&#xA;R0UgTWVkaWNhbCBTeXN0ZW1zLCBNdW56aWdlciBTdHIuIDMtNSwgNzkxMTEgRnJlaWJ1cmcsIFRl&#xA;bDowNzYxLTQ1NDMwDQoxMzowNzoxNzogUkVGOiAyMDAxNTg5LTA5Mg0KMTM6MDc6Mjk6IFNOOiAx&#xA;MDEyMDgyNzMNCmdlaGVhbHRoY2FyZXNlcnZpY2VAZ2UuY29tDQpNRURJWklOLVNFUlZJQ0UgR21i&#xA;SA0KRURWIFZlcnRyaWViDQpIci4gUsO2bWVyDQowMjExLTY1MTA0MQ0KMDE3MC00NTcxMTcwDQow&#xA;MjEwMy05NjM4MjkNCkVpbmhvcm4NCg0KU09NTk9NZWRpY3MsIE5pbmEgU2NobmVpZGVyDQowOTMx&#xA;LTM1OTA5NDYzDQowMTczLTY3Nzk5NTMNCmluZm9Aa3VyZ2Fub3ZhLmRlDQpBbm5hIEt1cmdhbm92&#xA;YQ0Kw4RyenRpbiBmw7xyIEFsbGdlbWVpbm1lZGl6aW4NCkpvc2VmLUtsZWVzYXR0ZWwtU3RyLiAy&#xA;MQ0KNDA1OTUgRMO8c3NlbGRvcmYgR2FyYXRoDQpUZWwuOiAoMDIxMSkgNzAgMjAgMzkNCkZheDog&#xA;KDAyMTEpIDcwIDIwIDMwDQpLVE86IDAxMDU4ODQ3MjENCkJMWjogMzAwNjA2MDENCj09PT09PT09&#xA;PT09PT09PT09PT0NCg0Ka3VyZ2Fub3ZhLmRlDQpmdHA6DQpmMDA2ZWNkNw0KTlk1TWF1SkdlVHpS&#xA;bWVwMw0KPT09PT09PT09PT09PT09PT09PQ0KYXJ6dC1nYXJhdGguZGUvYWRtaW5pc3RyYXRvci8N&#xA;CmFubmENCnBhc3N3b3J0DQo9PT09PT09PT09PT09PT09PT09DQpzdHJhdG8uZGUNClNUUkFUTyBC&#xA;YXNpY1dlYiBYTA0KQU46IDQwMzU0NTANCktOOiA3MzA0NzQwMg0KUFc6IEFLVVJBNjY3DQprdXJn&#xA;YW5vdmEuZGUNCmFyenQtZ2FyYXRoLmRlDQpoYXVzYXJ6dC1nYXJhdGguZGUNCmZ0cC5zdHJhdG8u&#xA;Y29tDQphcnp0LWdhcmF0aC5kZQ0KTVBXOiB4ZHkwMTR0NQ0KTXlTUUwgNS41LjI3DQpIb3N0OiBy&#xA;ZGJtcy5zdHJhdG8uZGUNCkRCMTE1MDUwMg0KVTExNTA1MDINClBBMDEyNTY1DQpFTWFpbDoNCnBy&#xA;YXhpc0Bhcnp0LWdhcmF0aC5kZSAtPiBpbmZvQGt1cmdhbm92YS5kZQ0KYWt1cmdhbm92YTEyNTM0&#xA;NDgzNw0KaW1hcC5zdHJhdG8uZGUNCnBvcDMuc3RyYXRvLmRlDQpzbXRwLnN0cmF0by5kZSAoZXJm&#xA;b3JkZXJ0IEF1dGhlbnRpZml6aWVydW5nKQ0KDQprdm5vcG9ydGFsLmRlDQpVOiBrdXJnYW5vdmEN&#xA;ClA6IDI1MzgxNDANClBJTjogMTgwMTcxDQpBcHBsZToNCmRhazM0NQ0KSUQ6IGt1cmdhbm92YUB3&#xA;ZWIuZGUNCk1pY3Jvc29mdDoNCmFubmEua3VyZ2Fub3ZhQG91dGxvb2suZGUNCjQwNTk1QFByYXhp&#xA;c0FLDQpPZmZpY2UzNjUNCmFubmFAa3VyZ2Fub3ZhLm9ubWljcm9zb2Z0LmNvbQ0KNDA1OTVAUHJh&#xA;eGlzX0FLDQpNUyBTdXBwb3J0OiAwMTgwLTY2NzIyNTUgLyA0DQpXUCBsb2dpbg0Ka3VyZ2Fub3Zh&#xA;LmRlL3dwLWxvZ2luLnBocA0KZG90c3VuaXRlZA0Kd29yZHBhc3MhDQoNCkdFDQowMTcyLTE1Nzg4&#xA;MDYNCkZyYW5rIFNpbW9uDQoNClNPTU5POg0Kd3d3LnNvbW5vbWVkaWNzLmRlDQppbmZvQGt1cmdh&#xA;bm92YS5kZQ0KU21pbGVzDQo="/></group>
+		<group id="1" collapsed="1" iconID="24" w="661" h="915" x="1181" y="92">
+			<name value="Praxis &quot;Valentin Agadzanov&quot;"/>
+			<memo value="TVZaIEludGVyTWVkIEdtYkgNCg0KDQpCRDogMTEuMDUuMTk2NQ0KSW1tZXJtYW5uIFN0ci4gNTAN&#xA;CjQwMjEwIETDvHNzZWxkb3JmDQoNCk9sZCBhZG1pbjoNCjAxNzgtNzc3Nzk0OA0KDQpJQkFOOiBE&#xA;RTk4MzAwNjA2MDEwMTA2ODNYNDg1DQoNCnByYXhpczIyDQpwc3ljaG8xDQpILk1ham9zDQowMTUx&#xA;LTE2NTg0OTMxDQpIci4gRXJ6IChFbGVrdHJpaykNCjAxNzgtNTA5NzU0NA0KMDcyMS05NjA4MDAz&#xA;DQoNCktOOiAyNzA3MjUxNjE5DQpUOiAwMjExLyA5MyA2NSA0MTQNCkZheDogMDIxMS8gMjYgMTQg&#xA;MjgxDQoyNjE0MjgxIEludGVybmV0IDEmMSBJbnRlcm5ldCAqMTIxIw0KMjYxNDI4MiBJbnRlcm5l&#xA;dCAxJjEgSW50ZXJuZXQgKjEyMiMNCjI2MTQyODMgSW50ZXJuZXQgMSYxIEludGVybmV0ICoxMjMj&#xA;DQo5MzY1NDE0IEludGVybmV0IDEmMSBJbnRlcm5ldCAqMTI0Iw0KDQp2b2lwOiBKZXNzeSwgcGVy&#xA;b3ZvNDAyMTANCg0KR29vZ2xlOg0KdmFsZW50aW4uYWdhZHphbm92QGdtYWlsLmNvbQ0KU2FhYjkw&#xA;MDENCg0KRW1haWw6DQpwc3ljaG90aGVyYXBpZUBhZ2FkemFub3YuZGUNCnBvcDMuYWdhZHphbm92&#xA;LmRlDQpzbXRwLmFnYWR6YW5vdi5kZQ0KbTAwZjdjY2INCnBlcm92bw0KDQpTa3lwZToNCmFnYWR6&#xA;YW5vdg0KcGVyb3ZvNDAyMTANCg0KQXBwbGUNCnBzeWNob3RoZXJhcGllQGFnYWR6YW5vdi5kZQ0K&#xA;U2FhYjkwMDENCjExMDU2NQ0KDQppUGhvbmU1DQpQSU46IDAzMDINClBVSzogNzY2MTcxNzANCmlQ&#xA;YWQ0DQpQSU46IDUzMjkNCg0Ka2FydGluYS50djoNCtCQ0LHQvtC90LXQvNC10L3RgjogMTAzOTAy&#xA;NDMNCtCf0LDRgNC+0LvRjDogNDA5ODcwDQo0NDg1DQoNCk9mZmljZSAzNjUNCnZhbGVudGluLmFn&#xA;YWR6YW5vdkBvdXRsb29rLmRlDQo0MDIxMEB2YS5jZA0KDQppc2FiZWwuYWdhZHphbm92QG91dGxv&#xA;b2suY29tDQppc2FiZWwuYWdhZHphbm92QGljbG91ZC5jb20NCklzQWcyMDE1DQoNClBvdm9sb3pr&#xA;aToNCldTIFBXRDogOTM2NTYyMTQNClRFTDogMDIxMSA5MzY1NjIxNA0KUHN5VGVsOiAwMjExIDU1&#xA;MDQ1OTc4LCA1NTA0NTk3OQ0KDQpPZmZpY2UgMzY1IEtleTogNk5NREotM0ZLWFctUkQyWFItRFRG&#xA;REItRzI4QkYNCg0KVGV0aWFuYSBLbGllDQp0ZXRpYW5hLmtsaWVAb3V0bG9vay5kZQ0KVGVLbDIw&#xA;MTUNCg0KTzI6DQowMTc5NDgyNjQ5OA0KcGVyb3ZvNDAyMTANCg0KTmV3IFBXRHM6DQp0azogdGVy&#xA;cmlrDQp2YTogcGVyb3ZvDQpqZzogcmFmbGlyNzcNCm5rOiAxMjM0NTYNCmxwOiA5MzY1NjIxNA0K&#xA;DQpNZWRhdGl4eDoNClZBOiBwZXJvdm8yMDE2DQpKRzogcmFmYWVsYTc3DQoNCkhvc3Q6IG9mZmlj&#xA;ZS5wcmF4aXMtdmEuY3J5cHRvZGlyYS5uZXQNClVwZGF0ZS1VUkw6IGR5bmRucy5rYXNzZXJ2ZXIu&#xA;Y29tLw0KVXBkYXRlLVVSTCBtaXQgSVAgKG9wdGlvbmFsKTogZHluZG5zLmthc3NlcnZlci5jb20v&#xA;P215aXA9PGlwYWRkcj4NCkJlbnV0emVybmFtZTogZHluMDAwMjdiNg0KUGFzc3dvcnQ6IHdwUjNT&#xA;RnA3ZEJmZVp6Q3kNCuKAiw0KS3VuZGVubnVtbWVyIFN0cmF0bzoNCjYxNTg1Mzk3DQpQYXNzOiBR&#xA;WjRhI1NKUHJBDQpGVFA6DQp3d3cucHN5Y2hvdGhlcmFwaWUtYWdhZHphbm92LmRlDQp3d3cucHN5&#xA;Y2hvdGhlcmFwaWUtYWdhZHphbm92LmRlDQpQYXNzOiBRWjRhI1NKUHJBDQpXSUZJQFBWQQ0KNjg0&#xA;NjU3NzMxODQ0MzU0NA0KDQoNCg0KVGVsZWtvbToNCkt1bmRlbm51bW1lcjogMjczODA4MzA2OA0K&#xA;QW5zY2hsdXNza2VubnVuZzogMDAyNjAyNDE0NzEzDQpadWdhbmdzbnVtbWVyOiA1NTExMjY2ODI2&#xA;MjQNCk1pdGJlbnV0emVybnVtbWVyOiAwMDAxDQpQZXJzw7ZubGljaGVzIEtlbm53b3J0OiAyNDAy&#xA;MDQxNw0KDQppUGhvbmUgSXNhYmVsDQpQSU46IDEyMzQ1Ng0KQkQ6IDIxLjA4LjIwMDgNCklzQWcy&#xA;MDE1DQpKZXNzeQ0KTGFkYQ0KQW5hcGENCg0KMXVuZDEgaG9tZQ0KMTM5ODMzNzYNCnZTNEdCcFVq&#xA;DQpBdWYgZGVyIFJlaWRlIDUzLCA0MDQ2OCBEw7xzc2VsZG9yZg0KDQoxMTA1NjUNCg0KdGF0aWFu&#xA;YWtrbGllQGdtYWlsLmNvbSwgMzB0YTExODMNCg0KDQppUGhvbmUgT2tzYW5hDQpNYWlsOiBtdW1s&#xA;YV8yMkBtYWlsLnJ1DQpQV0Q6IFJDLmlmY2VndGgxX25ldw0KTWFpbC5SdSBQV0Q6IGJNZm5jUktj&#xA;dXNSRnhaUTQNCg0KVVJMOiBodHRwczovL2FiLm12ei1pbnRlcm1lZC5kZS8NClVTRVI6IGFiQG12&#xA;ei1pbnRlcm1lZC5kZQ0KUFdEOiBuOTVubUZ4dFc1RHJTTlVUDQoNCldJRklAUFZBDQo2ODQ2NTc3&#xA;MzE4NDQzNTQ0DQoNCk1lZGF0aXh4IEtOOiAyNTkyNjcNCg=="/></group>
+		<group id="2" collapsed="0" iconID="19" w="582" h="887" x="2268" y="270">
+			<name value="QAG Direktwerbung GmbH"/>
+			<memo value=""/></group>
+		<group id="4" collapsed="1" iconID="5" w="582" h="406" x="1274" y="439">
+			<name value="Julia Goldman"/>
+			<memo value="VGhlcmFwaWV6ZW50cnVtIETDvHNzZWxkb3JmDQoNCkdlcsOkdHBhc3N3b3JkOiAxNzA2NjM1Ng0K&#xA;V0xBTjogV0xBTi01MlQzQlMNCktFWTogODcyMDMwMTA5OTIyODIzNg0KDQpBcHBsZSBJRDoNCnNv&#xA;bG90a29AZ214LmRlDQpTb2xvdGtvNzcgLS0+IFJhZmFlbGE3MTcNCg0KcmFmYWVsYTc3DQoNCjQw&#xA;MjEwQHR6ZC5jZA0KDQpnbXguZGUNCnNvbG90a29AZ214LmRlDQpyYWZhZWxhNzc3DQoNCg0KS1ZO&#xA;TyBMUDoNCnNvbG90a28NCnJhZmFlbGE3Nw0KDQpLVk5PIFZBOg0KZ29sZG80a2ENCnJhZmFlbGE3&#xA;Nw0KDQozOTE5Mjk5ODINCg0KDQo0MTY2MzM0NQ0KNDE2MDMxMzUNCjkzNjUyNTMxDQoNCi0tLS0t&#xA;IFdlYiAtLS0tLQ0KaHR0cDovL2FsZmFob3N0aW5nLmRlLw0KDQpHb2xkbWFuDQpyYXNhanU3Nw0K&#xA;DQpodHRwOi8vd3d3LnR6LWR1ZXNzZWxkb3JmLmRlL2FkbWluaXN0cmF0b3INCkJlbnV0emVybmFt&#xA;ZTogYWRtaW4NClBhc3N3b3JkOiByYXNhanU3Nw0KDQoNCg0KDQoNCkp1bGlhIEdvbGRtYW4NCjAy&#xA;LjEyLjE5NzENCg0KVGhlcmFwaWV6ZW50cnVtIETDvHNzZWxkb3JmDQoNCkdlcsOkdHBhc3N3b3Jk&#xA;OiAxNzA2NjM1Ng0KV0xBTjogV0xBTi01MlQzQlMNCktFWTogODcyMDMwMTA5OTIyODIzNg0KDQpB&#xA;cHBsZSBJRDoNCnNvbG90a29AZ214LmRlDQpTb2xvdGtvNzcgLS0+IFJhZmFlbGE3MTcgLS0+IFJh&#xA;ZmFlbGE3Nw0KDQpyYWZhZWxhNzcNCg0KNDAyMTBAdHpkLmNkDQoNCmdteC5kZQ0Kc29sb3Rrb0Bn&#xA;bXgubmV0DQpyYWZhZWxhNzc3DQoNCg0KS1ZOTyBMUDoNCnNvbG90a28NCnJhZmFlbGE3Nw0KOTU2&#xA;DQoNCktWTk8gVkE6DQpnb2xkbzRrYQ0KcmFmYWVsYTc3DQo1MDYNCg0KMzkxOTI5OTgyDQoNCg0K&#xA;NDE2NjMzNDUNCjQxNjAzMTM1DQo5MzY1MjUzMQ0KDQotLS0tLSBXZWIgLS0tLS0NCmh0dHA6Ly9h&#xA;bGZhaG9zdGluZy5kZS8NCg0KR29sZG1hbg0KcmFzYWp1NzcNCg0KaHR0cDovL3d3dy50ei1kdWVz&#xA;c2VsZG9yZi5kZS9hZG1pbmlzdHJhdG9yDQpCZW51dHplcm5hbWU6IGFkbWluDQpQYXNzd29yZDog&#xA;cmFzYWp1NzcNCg0KVFotR29sZG1hbg0KDQo0MDIyN0B0emcuY2QNCg0KDQpHb29nbGU6DQpqdWxp&#xA;YS5nb2xkbWFuLnR6QGdtYWlsLmNvbQ0KSnVsaWFHb2xkbWFuMjAxOA0KDQpPdXRsb29rOg0KZ29s&#xA;ZG1hbi50ekBvdXRsb29rLmRlDQpKdWxpYUdvbGRtYW4yMDE4DQoNCg0KUGFzc3dvcnQ6DQp0ejQx&#xA;NjYzMzQ1DQoNCg=="/>
+		</group>
+		<group id="8" collapsed="0" iconID="27" w="582" h="406" x="1946" y="171">
+			<name value="WordPress"/>
+			<memo value=""/></group>
+		<group id="5" collapsed="1" iconID="0"><name value="Hochdahl"/></group><group id="3" collapsed="0" iconID="2"><name value="АЭИ &quot;ПРАЙМ&quot;"/></group><group id="6" collapsed="1" iconID="2"><name value="АЭИ &quot;ПРАЙМ&quot; Клиенты"/></group><group id="7" collapsed="0" iconID="2"><name value="АЭИ &quot;ПРАЙМ&quot; Legacy"/></group><group id="9" collapsed="0" iconID="2"><name value="АЭИ &quot;ПРАЙМ&quot; Middle"/></group></groups>
+	<hosts>
+		<host groupId="0" active="0" id="{DD6AF824-7A5A-4959-B16F-E1FE95B38D3D}">
+			<name value="AK 1 (R1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57071"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><resources value=""/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><domain/><paramFile1/></host>
+		<host groupId="0" active="0" id="{32CCD066-C1D5-4891-8240-7C2BFA997B63}">
+			<name value="AK 2 (R2)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+			<softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></host>
+		<host groupId="0" active="0" id="{A9868A6C-42A3-4731-BF7D-890B40659F20}">
+			<name value="AK 3 (A1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+			<softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></host>
+		<host groupId="0" active="0" id="{C5712C10-4E7F-4705-B21C-6204E13D5FCD}">
+			<name value="AK 5 (A2)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57075"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+			<softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></host>
+		<host groupId="0" active="0" id="{18AF5CA5-2E0D-4D10-BA92-26C23619D78E}">
+			<name value="AK 6 (L1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57076"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+			<softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></host>
+		<host groupId="1" active="0" id="{3EB3E3FF-79E9-4938-B25C-2A4F866B0B87}">
+			<name value="VA TS02 TK"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="2"/><fullScreen value="1"/><public value="2"/><width value=""/><height value=""/><protocol value="2"/><memo value=""/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host>
+		<host groupId="1" active="0" id="{F281A895-7900-432D-86E5-19BFAB8425B8}">
+			<name value="VA TS03 Boss"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="2"/><fullScreen value="1"/><public value="2"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><resources value=""/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/>
+			<protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host>
+		<host groupId="1" active="0" id="{03766461-3249-487C-94AB-3CF3824C3926}">
+			<name value="VA TS06 LP"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57076"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><admin value="2"/><fullScreen value="1"/><public value="2"/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><username value=""/><width value=""/><height value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/>
+			<protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host>
+		<host groupId="1" active="0" id="{D425A2F1-08CB-45C9-ADE9-BF24D488F7B0}">
+			<name value="VA TS04 Assist"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57074"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="2"/><fullScreen value="1"/><public value="2"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<resources value=""/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host>
+		<host groupId="1" active="0" id="{E683B85E-A710-4068-9386-460D071D2C78}">
+			<name value="VA Server"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="3389"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value="Administrator"/><password value="40210@praxis-va.cd"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value="1280"/><height value="1024"/><protocol value="1"/><openWith value="2"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><paramFile1/><domain/></host>
+		<host groupId="0" active="0" id="{7760AED5-7E90-483A-A329-E25B7E95A38D}">
+			<name value="AK Server"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="3389"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value="Administrator"/><password value="7832@praxis.cd"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value="1280"/><height value="1024"/><protocol value="1"/><openWith value="2"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><paramFile1/><domain/></host>
+		<host groupId="0" active="0" id="{3FBAB496-88FE-4A50-9A3D-0AE418DD9B6A}">
+			<name value="AK 4 (EKG)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57074"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><username value=""/><errorInterval value="5"/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><memo value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+			<softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></host>
+		<host groupId="1" active="0" id="{2DA3954F-0066-453C-AF02-FB8E0A4ED1B4}"><name value="VA TS01"/><host value="office.praxis-va.grot.de"/><port value="57071"/><interval value="60"/><timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><memo value=""/><admin value="2"/><fullScreen value="1"/><public value="2"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host><host groupId="0" active="0" id="{143A0155-BE37-4799-9035-CEA64184DE33}"><name value="AK Router"/><host value="office.praxis-ak.grot.de"/><port value="450"/><interval value="60"/><timeout value="2"/><service value="3"/><username value=""/><password value=""/><errorInterval value="5"/><admin value="0"/><fullScreen value="0"/><public value="0"/><protocol value="7"/><width value=""/><height value=""/><memo value=""/><openWith value="7"/>
+			<sendReceive value="0"/>
+			<resources value=""/>
+			<maximized value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<softId value="{F3AC316D-05EF-435D-817A-72C84B1566BD}"/><protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></host><host groupId="1" active="0" id="{029D45F0-611C-46D2-AA7E-B025DCE1E988}"><name value="VA Router"/><host value="office.praxis-va.grot.de"/><port value="450"/><interval value="60"/><timeout value="2"/><service value="3"/><username value=""/><password value=""/><errorInterval value="5"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value=""/><height value=""/><protocol value="7"/><openWith value="7"/><resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/><softId value="{F3AC316D-05EF-435D-817A-72C84B1566BD}"/><domain value=""/><paramFile1 value=""/></host><host groupId="1" active="0" id="{B627D0F4-768E-4657-A594-F0141ACC965C}"><service value="2"/><name value="VA Strato"/><host value="www.psychotherapie-agadzanov.de"/><port value="21"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="www.psychotherapie-agadzanov.de"/><password value="QZ4a#SJPrA"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><protocol value="3"/><width value=""/><height value=""/><openWith value="9"/><resources value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="1"/>
+			<protocolId/></host><host groupId="2147483646" active="0" id="{0A124BC8-0D22-4B9F-95BE-F5766E44EEBB}"><service value="2"/><protocol value="5"/><name value="OC Yandex"/><host value="webdav.yandex.ru"/><resources value="/"/><port value="443"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oleg.chensky"/><password value="Feofan40699"/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="5"/><memo value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><softId value="{EFF711AA-9121-4546-905C-3FC5C7B440EB}"/></host>
+		<host groupId="4" active="0" id="{0F6E122E-2712-4231-B417-F6DBAAFB1199}">
+			<service value="3"/>
+			<protocol value="7"/>
+			<name value="TZD Router"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="450"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value=""/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="7"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId/></host>
+		<host groupId="4" active="0" id="{9852E928-6259-4EC4-9894-9F07DFBCF3CF}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS1"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57071"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+			<protocolId/></host>
+		<host groupId="1" active="0" id="{5DFC2048-E838-489F-A54F-5A190DAC7EEF}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="VA TS07 MeDoSys"/>
+			<host value="office.praxis-va.grot.de"/>
+			<resources value=""/>
+			<port value="57077"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="2"/>
+			<maximized value="1"/>
+			<public value="2"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host>
+		<host groupId="4" active="0" id="{97D6883B-A0EB-479A-8026-EAEB97D40743}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS2"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/><protocolId/></host>
+		<host groupId="4" active="0" id="{70B59403-9419-44BC-88EB-375AB9D3568F}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS3"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/><protocolId/></host>
+		<host groupId="1" active="0"><service value="1"/><protocol value="2"/><name value="VA TS08"/><host value="office.praxis-va.grot.de"/><resources value=""/><port value="57078"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="2"/><maximized value="1"/><public value="2"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host><host groupId="2147483646" active="0"><service value="1"/><protocol value="2"/><name value="VBox"/><host value="starkindu.grot.de"/><resources value=""/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><domain/><paramFile1/></host><host groupId="5" active="0"><service value="1"/><protocol value="2"/><name value="Kids Windows"/><host value="kids.grot.de"/><resources value="/"/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><sendReceive value="0"/><runAsAdmin value="0"/><width value=""/><height value=""/><openWith value="3"/><sendString value=""/><receiveString value=""/><memo value=""/><protocolId/></host><host groupId="5" active="0"><service value="1"/><protocol value="2"/><name value="BeFo WS1"/><host value="befo.grot.de"/><resources value="/"/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="аущ40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId/></host><host groupId="5" active="0"><service value="3"/><protocol value="7"/><name value="Kids Router"/><host value="kids.grot.de"/><resources value="/"/><port value="443"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/><softId value="{F3AC316D-05EF-435D-817A-72C84B1566BD}"/></host><host groupId="4" active="0"><service value="3"/><protocol value="7"/><name value="GTZ Router"/><host value="tzg.grot.de"/><resources value=""/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId/></host><host groupId="2147483646" active="0"><service value="1"/><protocol value="1"/><name value="buch.grot.de"/><host value="buch.grot.de"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oc"/><password value="141190@list.ru"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="2"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><domain value=""/><paramFile1 value=""/></host><host groupId="4" active="0"><service value="1"/><protocol value="2"/><name value="GTZ WS1 Boss"/><host value="tzg.grot.de"/><resources value=""/><port value="57071"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId/></host><host groupId="4" active="0"><service value="1"/><protocol value="2"/><name value="GTZ WS2 Reception"/><host value="tzg.grot.de"/><resources value=""/><port value="57072"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId/></host><host groupId="1" active="0"><service value="1"/><protocol value="2"/><name value="VA TS09"/><host value="office.praxis-va.grot.de"/><resources value=""/><port value="57079"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="2"/><maximized value="1"/><public value="2"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/></host><host groupId="5" active="0"><service value="3"/><protocol value="7"/><name value="BeFo Router"/><host value="befo.grot.de"/><resources value="/"/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="аущ40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId/></host><host groupId="2147483646" active="0"><service value="3"/><protocol value="7"/><name value="buch.grot.de R"/><host value="buch.grot.de"/><resources value=""/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="inetuser"/><password value="Feofan40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/><softId value="{EFF711AA-9121-4546-905C-3FC5C7B440EB}"/></host><host groupId="2147483646" active="0"><service value="1"/><protocol value="1"/><name value="Srv2008vpn"/><host value="buch.grot.de"/><resources value=""/><port value="57000"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="Administrator"/><password value="Feofan40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="2"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><domain value=""/><additionalParameters/><paramFile1 value="YXVkaW9jYXB0dXJlbW9kZTppOjANCmF1ZGlvbW9kZTppOjINCmF1dG9yZWNvbm5lY3QgbWF4IHJl&#xA;dHJpZXM6aToyMA0KYXV0b3JlY29ubmVjdGlvbiBlbmFibGVkOmk6MQ0KYml0bWFwY2FjaGVwZXJz&#xA;aXN0ZW5hYmxlOmk6MQ0KY29ubmVjdCB0byBjb25zb2xlOmk6MA0KZGVza3RvcCBzaXplIGlkOmk6&#xA;NA0KZGVza3RvcGhlaWdodDppOjYwMA0KZGVza3RvcHdpZHRoOmk6ODAwDQpkaXNhYmxlIHRoZW1l&#xA;czppOjANCmRpc2FibGUgd2FsbHBhcGVyOmk6MA0KcmVkaXJlY3RjbGlwYm9hcmQ6aToxDQpyZWRp&#xA;cmVjdGNvbXBvcnRzOmk6MA0KcmVkaXJlY3RkaXJlY3R4Omk6MQ0KcmVkaXJlY3Rkcml2ZXM6aTox&#xA;DQpyZWRpcmVjdHBvc2RldmljZXM6aTowDQpyZWRpcmVjdHByaW50ZXJzOmk6MA0KcmVkaXJlY3Rz&#xA;bWFydGNhcmRzOmk6MA0Kc2NyZWVuIG1vZGUgaWQ6aToyDQpzcGFuIG1vbml0b3JzOmk6MA0KdXNl&#xA;IG11bHRpbW9uOmk6MA0Kd2lucG9zc3RyOnM6"/><defaultParamFile1/><modified/></host><host groupId="3" active="0"><service value=""/><protocol value=""/><name value="DocStream Production"/><host value="ds-node-02"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><openWith value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><domain value="prime"/><paramFile1 value=""/></host><host groupId="3" active="0"><service value=""/><protocol value=""/><name value="DWH-SRV-01"/><host value="DWH-SRV-01"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><openWith value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><domain/><paramFile1/></host><host groupId="6" active="0"><service value="2"/><protocol value="3"/><name value="news.forex4you.org"/><host value="news.forex4you.org"/><resources value=""/><port value="21000"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="1"/><public value="0"/><width value=""/><height value=""/><openWith value="9"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="1"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/></host><host groupId="2147483646" active="0"><service value="2"/><protocol value="3"/><name value="all-incl.com FTP"/><host value="w00b0aad.kasserver.com"/><resources value=""/><port value="21"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="w00b0aad"/><password value="x3F9CennxANPvVRf"/><admin value="0"/><maximized value="1"/><public value="0"/><width value=""/><height value=""/><openWith value="9"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><softId value="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"/><domain/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="DocStream Alpha"/><host value="docstream-alpha"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><domain value="prime"/><memo value=""/><paramFile1 value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Tiger"/><host value="tiger"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><domain value="prime"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Cassiopeia"/><host value="cassiopeia"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><domain value="prime"/><paramFile1 value=""/><memo value="VGFzayBTY2hlZHVsZXINCtCf0L7Qu9GD0Y/QvQ=="/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Falcon"/><host value="falcon"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value="bm5Dcm9u"/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Camel"/><host value="camel"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Eagle"/><host value="eagle"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Slon"/><host value="slon"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Cabane"/><host value="cabane"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Baklan 2"/><host value="baklan2"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Comanche"/><host value="comanche"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="NewsGate"/><host value="newsgate"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="NewsBox"/><host value="newsbox"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Guron"/><host value="guron"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Tass"/><host value="tass"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Varaha"/><host value="varaha"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Mongoose"/><host value="mongoose"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="DJ Stocks"/><host value="djstocks"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="7" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Cherokee"/><host value="cherokee"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="9" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="ESB Infra Production"/><host value="esb-infra-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="9" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="ESB App Production"/><host value="esb-app-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="9" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="ESB Delivery Production"/><host value="esb-delivery-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="141195@bk.ru"/><domain value="prime"/><admin value="2"/><maximized value="0"/><public value="2"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="2147483646" active="0"><protocolId value="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"/><softId value="{CA0B831C-9B27-4412-986D-E89953D4738D}"/><name value="all-incl.com SSH"/><host value="w00b0aad.kasserver.com"/><resources value=""/><port value="22"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="ssh-w00b0aad"/><password value="x3F9CennxANPvVRf"/><domain value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><paramFile1 value=""/><memo value=""/></host><host groupId="9" active="0"><protocolId value="{422DDC66-FB7F-4814-A0B5-4B70AE701DEA}"/><softId value=""/><name value="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"/><host value="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"/><resources value=""/><port value=""/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><domain value=""/><admin value=""/><maximized value="0"/><public value=""/><sendReceive value="0"/><runAsAdmin value="0"/><width value=""/><height value=""/><sendString value=""/><receiveString value=""/><paramFile1 value=""/><memo value=""/></host></hosts>
+	<software x="1206" y="134" w="492" h="526" lastPageIdx="0">
+		<soft id="{FAED4D3F-BA4D-4E37-9F16-60E7BD993707}"><name value="SW50ZXJuZXQgRXhwbG9yZXI="/><path value="QzpcUHJvZ3JhbSBGaWxlc1xpbnRlcm5ldCBleHBsb3JlclxpZXhwbG9yZS5leGU="/><params value="JVVSSSU="/><supported value="1"/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols><defaultParams/><defaultParamFile1 value=""/><url/></soft>
+		<soft id="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"><name value="TWljcm9zb2Z0IFJlbW90ZSBEZXNrdG9w"/><path value="QzpcV2luZG93c1xTeXN0ZW0zMlxtc3RzYy5leGU="/><params value="JVBBUkFNRklMRTEl"/><supported value="1"/><protocols><protocol value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/></protocols>
+			<defaultParamFile1 value="YWRtaW5pc3RyYXRpdmUgc2Vzc2lvbjppOjANCmFsbG93IGRlc2t0b3AgY29tcG9zaXRpb246aTow&#xA;DQphbGxvdyBmb250IHNtb290aGluZzppOjANCmFsdGVybmF0ZSBzaGVsbDpzOg0KYXVkaW9jYXB0&#xA;dXJlbW9kZTppOjANCmF1ZGlvbW9kZTppOjINCmF1ZGlvcXVhbGl0eW1vZGU6aTowDQphdXRoZW50&#xA;aWNhdGlvbiBsZXZlbDppOjANCmF1dG9yZWNvbm5lY3QgbWF4IHJldHJpZXM6aToyMA0KYXV0b3Jl&#xA;Y29ubmVjdGlvbiBlbmFibGVkOmk6MQ0KYmFuZHdpZHRoYXV0b2RldGVjdDppOjENCmJpdG1hcGNh&#xA;Y2hlcGVyc2lzdGVuYWJsZTppOjENCmJpdG1hcGNhY2hlc2l6ZTppOjE1MDANCmNvbXByZXNzaW9u&#xA;Omk6MQ0KY29ubmVjdCB0byBjb25zb2xlOmk6MA0KY29ubmVjdGlvbiB0eXBlOmk6Nw0KZGVza3Rv&#xA;cCBzaXplIGlkOmk6NA0KZGVza3RvcGhlaWdodDppOjYwMA0KZGVza3RvcHdpZHRoOmk6ODAwDQpk&#xA;ZXZpY2VzdG9yZWRpcmVjdDpzOioNCmRpc2FibGUgY3RybCthbHQrZGVsOmk6MQ0KZGlzYWJsZSBj&#xA;dXJzb3Igc2V0dGluZzppOjANCmRpc2FibGUgZnVsbCB3aW5kb3cgZHJhZzppOjENCmRpc2FibGUg&#xA;bWVudSBhbmltczppOjENCmRpc2FibGUgdGhlbWVzOmk6MA0KZGlzYWJsZSB3YWxscGFwZXI6aTow&#xA;DQpkaXNhYmxlY29ubmVjdGlvbnNoYXJpbmc6aTowDQpkaXNhYmxlcmVtb3RlYXBwY2Fwc2NoZWNr&#xA;Omk6MA0KZGlzYWJsZXByaW50ZXJyZWRpcmVjdGlvbjppOjANCmRpc2FibGVjbGlwYm9hcmRyZWRp&#xA;cmVjdGlvbjppOjANCmRpc3BsYXljb25uZWN0aW9uYmFyOmk6MQ0KZG9tYWluOnM6DQpkcml2ZXN0&#xA;b3JlZGlyZWN0OnM6Kg0KZW5hYmxlY3JlZHNzcHN1cHBvcnQ6aToxDQplbmFibGVzdXBlcnBhbjpp&#xA;OjANCmVuYWJsZXdvcmtzcGFjZXJlY29ubmVjdDppOjANCmZ1bGwgYWRkcmVzczpzOg0KZ2F0ZXdh&#xA;eWJyb2tlcmluZ3R5cGU6aTowDQpnYXRld2F5Y3JlZGVudGlhbHNzb3VyY2U6aTo0DQpnYXRld2F5&#xA;aG9zdG5hbWU6czoNCmdhdGV3YXlwcm9maWxldXNhZ2VtZXRob2Q6aToxDQpnYXRld2F5dXNhZ2Vt&#xA;ZXRob2Q6aTo0DQprZGNwcm94eW5hbWU6czoNCmtleWJvYXJkaG9vazppOjINCmxvYWRiYWxhbmNl&#xA;aW5mbzpzOg0KbmVnb3RpYXRlIHNlY3VyaXR5IGxheWVyOmk6MQ0KbmV0d29ya2F1dG9kZXRlY3Q6&#xA;aToxDQpwYXNzd29yZCA1MTpiOg0KcGluY29ubmVjdGlvbmJhcjppOjENCnByb21wdCBmb3IgY3Jl&#xA;ZGVudGlhbHM6aTowDQpwcm9tcHQgZm9yIGNyZWRlbnRpYWxzIG9uIGNsaWVudDppOjANCnByb21w&#xA;dGNyZWRlbnRpYWxvbmNlOmk6MA0KcHVibGljIG1vZGU6aTowDQpyZGdpc2tkY3Byb3h5Omk6MA0K&#xA;cmVkaXJlY3RjbGlwYm9hcmQ6aToxDQpyZWRpcmVjdGNvbXBvcnRzOmk6MA0KcmVkaXJlY3RkaXJl&#xA;Y3R4Omk6MQ0KcmVkaXJlY3Rkcml2ZXM6aToxDQpyZWRpcmVjdHBvc2RldmljZXM6aTowDQpyZWRp&#xA;cmVjdHByaW50ZXJzOmk6MA0KcmVkaXJlY3RzbWFydGNhcmRzOmk6MA0KcmVtb3RlYXBwbGljYXRp&#xA;b25jbWRsaW5lOnM6DQpyZW1vdGVhcHBsaWNhdGlvbmZpbGU6czoNCnJlbW90ZWFwcGxpY2F0aW9u&#xA;ZXhwYW5kY21kbGluZTppOjENCnJlbW90ZWFwcGxpY2F0aW9uZXhwYW5kd29ya2luZ2RpcjppOjEN&#xA;CnJlbW90ZWFwcGxpY2F0aW9uaWNvbjpzOg0KcmVtb3RlYXBwbGljYXRpb25tb2RlOmk6MA0KcmVt&#xA;b3RlYXBwbGljYXRpb25uYW1lOnM6DQpyZW1vdGVhcHBsaWNhdGlvbnByb2dyYW06czoNCnNjcmVl&#xA;biBtb2RlIGlkOmk6Mg0Kc2VydmVyIHBvcnQ6aTozMzg5DQpzZXNzaW9uIGJwcDppOjMyDQpzaGVs&#xA;bCB3b3JraW5nIGRpcmVjdG9yeTpzOg0Kc21hcnQgc2l6aW5nOmk6MQ0Kc3BhbiBtb25pdG9yczpp&#xA;OjANCnN1cGVycGFuYWNjZWxlcmF0aW9uZmFjdG9yOmk6MQ0KdXNlIHJlZGlyZWN0aW9uIHNlcnZl&#xA;ciBuYW1lOmk6MA0KdXNiZGV2aWNlc3RvcmVkaXJlY3Q6czoNCnVzZSBtdWx0aW1vbjppOjANCnVz&#xA;ZXJuYW1lOnM6DQp2aWRlb3BsYXliYWNrbW9kZTppOjENCndpbnBvc3N0cjpzOg=="/><url value="aHR0cHM6Ly93d3cuZG9ua3oubmwvb3ZlcnZpZXctcmRwLWZpbGUtc2V0dGluZ3Mv"/><defaultParamFile2 value=""/><defaultParamFile3 value=""/><memo value=""/></soft><soft id="{EFF711AA-9121-4546-905C-3FC5C7B440EB}"><name value="Vml2YWxkaQ=="/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNzdBQTE5NDEtRUMxNi00RDc2LUI4QjItMjBCREMwODk2RURG&#xA;XEFwcGxpY2F0aW9uXHZpdmFsZGkuZXhl"/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols><defaultParams/><defaultParamFile1 value=""/></soft><soft id="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"><name value="VGhpZ2h0Vk5D"/><path value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><params value="LW9wdGlvbnNmaWxlPSIlVk5DRklMRU5BTUUlIiAtcGFzc3dvcmQ9JVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols><defaultParamFile1 value="W2Nvbm5lY3Rpb25dDQpob3N0PQ0KcG9ydD01OTAwDQpwYXNzd29yZD0NCg0KW29wdGlvbnNdDQp1&#xA;c2VfZW5jb2RpbmdfMT0xDQpjb3B5cmVjdD0xDQp2aWV3b25seT0wDQpmdWxsc2NyZWVuPTANCjhi&#xA;aXQ9MA0Kc2hhcmVkPTENCmJlbGxkZWljb25pZnk9MA0KZGlzYWJsZWNsaXBib2FyZD0wDQpzd2Fw&#xA;bW91c2U9MA0KZml0d2luZG93PTANCmN1cnNvcnNoYXBlPTENCm5vcmVtb3RlY3Vyc29yPTANCnBy&#xA;ZWZlcnJlZF9lbmNvZGluZz03DQpjb21wcmVzc2xldmVsPS0xDQpxdWFsaXR5PTYNCmxvY2FsY3Vy&#xA;c29yPTENCnNjYWxlX2Rlbj0xDQpzY2FsZV9udW09MQ0KbG9jYWxfY3Vyc29yX3NoYXBlPTE="/><url value="aHR0cHM6Ly93d3cudGlnaHR2bmMuY29tL3ZuY3ZpZXdlci4xLnBocA=="/></soft><soft id="{A8BB6467-58F8-40DC-8DED-B16D19734C23}"><name value="VWx0cmFWTkM="/><path value=""/><params value="JUhPU1QlOiVQT1JUJSAtcGFzc3dvcmQgJVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols><defaultParams value=""/><defaultParamFile1/></soft><soft id="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"><name value="VG90YWwgQ29tbWFuZGVy"/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNENkE2MjRB&#xA;XHRjLmV4ZQ=="/><params value="L24gL2k9JVBBVEglXHdpbmNtZC5pbmkgL2Y9JVBBVEglXHdjeF9mdHAuaW5pIC9PIC9SPSVVUkkl&#xA;"/><supported value="0"/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"/></protocols><defaultParams value=""/></soft><soft id="{F3AC316D-05EF-435D-817A-72C84B1566BD}"><name value="U3lzdGVtIEJyb3dzZXI="/><path value=""/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols><defaultParamFile1/></soft><soft id="{952F0426-6403-4F6D-A142-6BFB8AAF7FBA}"><name value="VGVsbmV0"/><path value="dGVsbmV0LmV4ZQ=="/><params value="JUhPU1QlICVQT1JUJQ=="/><protocols><protocol value="{973D9D2F-481D-4C68-8304-9C81154BACD1}"/></protocols><defaultParamFile1 value=""/></soft><soft id="{F449B3E7-7488-4AC0-90CE-5CA8716873E5}"><name value="V2luU0NQ"/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBRDk4REM0QkQtNEEzOS00NDUxLUE2MDUtQUEwRTZFQjc0MkZB&#xA;XFdpblNDUC5leGU="/><params value=""/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"/><protocol value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><protocol value="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"/></protocols><defaultParamFile1 value=""/><url/></soft><soft id="{CA0B831C-9B27-4412-986D-E89953D4738D}"><name value="UHVUVFk="/><path value="QzpcUHJvZ3JhbSBGaWxlc1xQdVRUWVxwdXR0eS5leGU="/><params value="LXNzaCAlSE9TVCUgLWwgJVVTRVJOQU1FJSAtcHcgJVBBU1NXT1JEJQ=="/><url value=""/><protocols><protocol value="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"/></protocols><defaultParamFile1 value=""/><defaultParamFile2 value=""/><defaultParamFile3 value=""/></soft></software>
+	<protocols>
+		<protocol id="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}">
+			<name value="UmVtb3RlIERlc2t0b3A="/>
+			<port value="3389"/>
+			<uriText/><scheme value=""/>
+			<shortName value="UkRQ"/><locationId/></protocol>
+		<protocol id="{407A8DAF-2628-4441-93C5-72EE62A291CA}"><name value="VmlydHVhbCBOZXR3b3JrIENvbXB1dGluZw=="/><port value="5900"/><uriText/><scheme value=""/><shortName value="Vk5D"/><locationId/></protocol><protocol id="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"><name value="RmlsZSBUcmFuc2Zlcg=="/><port value="21"/><uriText value="ftp://"/><scheme value="ftp://"/><shortName value="RlRQ"/><locationId/></protocol><protocol id="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"><name value="U2VjdXJlIEZpbGUgVHJhbnNmZXI="/><port value="22"/><uriText value="sftp://"/><scheme value="sftp://"/><shortName value="U0ZUUA=="/><locationId/></protocol><protocol id="{516FB366-0AD0-418D-918A-CCC8C1482311}"><name value="V2ViLWJhc2VkIERpc3RyaWJ1dGVkIEF1dGhvcmluZyBhbmQgVmVyc2lvbmluZw=="/><port value="443"/><uriText value="https://"/><scheme value="https://"/><shortName value="V2ViREFW"/><locationId/></protocol><protocol id="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVy"/><port value="80"/><uriText value="http://"/><scheme value="http://"/><shortName value="SFRUUA=="/><locationId/></protocol><protocol id="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVyIFNlY3VyZQ=="/><port value="443"/><uriText value="https://"/><scheme value="https://"/><shortName value="SFRUUFM="/><locationId/></protocol><protocol id="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"><name value="U2VjdXJlIFNoZWxs"/><port value="22"/><uriText/><scheme value="-ssh"/>
+			<shortName value="U1NI"/><locationId/></protocol>
+		<protocol id="{973D9D2F-481D-4C68-8304-9C81154BACD1}"><name value="VGVsZXR5cGUgTmV0d29yaw=="/><port value="23"/><scheme value=""/><shortName value="VGVsbmV0"/><locationId/></protocol><protocol id="{422DDC66-FB7F-4814-A0B5-4B70AE701DEA}"><name value="cmVnaXN0cnk="/><shortName value="cm8="/><activityMethodeId value="1"/><port value=""/><scheme value=""/><locationId/></protocol></protocols>
+</aradar>

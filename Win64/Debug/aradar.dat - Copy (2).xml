@@ -1,0 +1,2516 @@
+<?xml version="1.0"?>
+<aradar>
+	<properties stayOnTop="0" groupView="1" w="251" h="503" x="103" y="121" startMinimized="0" styleID="0"><esTightVNC value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><esFileZilla value="QzpcUHJvZ3JhbSBGaWxlc1xGaWxlWmlsbGEgRlRQIENsaWVudFxmaWxlemlsbGEuZXhl"/><esWinSCP value="RDpcY3J5cHRvRGlyYS5jb21cMFxBRDk4REM0QkQtNEEzOS00NDUxLUE2MDUtQUEwRTZFQjc0MkZB&#xA;XFdpblNDUC5leGU="/><esBrowser value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNzdBQTE5NDEtRUMxNi00RDc2LUI4QjItMjBCREMwODk2RURG&#xA;XEFwcGxpY2F0aW9uXHZpdmFsZGkuZXhl"/><esUltraVNC value="QzpcUHJvZ3JhbSBGaWxlc1x1dm5jIGJ2YmFcVWx0cmFWTkNcdm5jdmlld2VyLmV4ZQ=="/><esRealVNC/><esMSTSC/><esTeamViewer value="QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxUZWFtVmlld2VyXFRlYW1WaWV3ZXIuZXhl"/><esExplorer/>
+		<esBrowserParams value=""/>
+		<esTotalCommander value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNENkE2MjRB&#xA;XHRjLmV4ZQ=="/>
+		<esTotalCommanderParams value="L24gL2k9RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNE&#xA;NkE2MjRBXHdpbmNtZC5pbmkgL2Y9RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00&#xA;NkUxLUI0QUYtQUYyMkNENkE2MjRBXHdjeF9mdHAuaW5p"/>
+	</properties>
+	<groups>
+		<group id="2147483647" collapsed="0" iconID="0" w="599" h="907" x="2660" y="229">
+			<name value="Favorites"/>
+			<memo value=""/></group>
+		<group id="2147483646" collapsed="0" iconID="1" w="582" h="406" x="2585" y="224">
+			<name value="General"/>
+			<memo value="VE9EMDoNCg0KLSBTdGF0aXN0aWMNCi0gRXJyb3IgTVNHcw0KLSBSRFAgQ29tcGxldGUNCg0KDQoN&#xA;ClN0ZXZlbjoNCnN0ZXZlbmNoZW5za3kwMUBnbWFpbC5jb20NCmZlb2ZhbjQwNjk5DQoNCg=="/></group>
+		<group id="0" collapsed="1" iconID="21" w="806" h="927" x="1946" y="171">
+			<name value="Praxis &quot;Anna Kurganova&quot;"/>
+			<memo value=""/></group>
+		<group id="1" collapsed="1" iconID="24" w="661" h="915" x="1949" y="202">
+			<name value="Praxis &quot;Valentin Agadzanov&quot;"/>
+			<memo value=""/></group>
+		<group id="2" collapsed="1" iconID="19" w="582" h="887" x="2268" y="270">
+			<name value="QAG Direktwerbung GmbH"/>
+			<memo value=""/></group>
+		<group id="4" collapsed="1" iconID="5" w="582" h="406" x="1274" y="439">
+			<name value="Julia Goldman"/>
+			<memo value=""/>
+		</group>
+		<group id="8" collapsed="1" iconID="27" w="582" h="406" x="1946" y="171">
+			<name value="WordPress"/>
+			<memo value=""/></group>
+		<group id="5" collapsed="1" iconID="0"><name value="Hochdahl"/></group><group id="3" collapsed="0" iconID="2"><name value="АЭИ &quot;ПРАЙМ&quot;"/></group></groups>
+	<hosts>
+		<host groupId="0" active="0" id="{DD6AF824-7A5A-4959-B16F-E1FE95B38D3D}">
+			<name value="AK 1 (R1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57071"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><resources value=""/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="0" active="0" id="{32CCD066-C1D5-4891-8240-7C2BFA997B63}">
+			<name value="AK 2 (R2)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="0" active="0" id="{A9868A6C-42A3-4731-BF7D-890B40659F20}">
+			<name value="AK 3 (A1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="0" active="0" id="{C5712C10-4E7F-4705-B21C-6204E13D5FCD}">
+			<name value="AK 5 (A2)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57075"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="0" active="0" id="{18AF5CA5-2E0D-4D10-BA92-26C23619D78E}">
+			<name value="AK 6 (L1)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57076"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value=""/><password value="feo40699"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0" id="{3EB3E3FF-79E9-4938-B25C-2A4F866B0B87}">
+			<name value="VA TS02 TK"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><memo value=""/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0" id="{F281A895-7900-432D-86E5-19BFAB8425B8}">
+			<name value="VA TS03 Boss"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><resources value=""/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0" id="{03766461-3249-487C-94AB-3CF3824C3926}">
+			<name value="VA TS06 LP"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57076"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><admin value="0"/><fullScreen value="1"/><public value="0"/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><username value=""/><width value=""/><height value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0" id="{D425A2F1-08CB-45C9-ADE9-BF24D488F7B0}">
+			<name value="VA TS04 Assist"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="57074"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<resources value=""/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<memo value=""/>
+			<runAsAdmin/></host>
+		<host groupId="2" active="0" id="{F637F138-05CA-457C-84CF-D4A7F461A474}">
+			<name value="QAG 1 Anna"/>
+			<host value="office.qag-dw.grot.de"/>
+			<port value="57071"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<sendString value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="2" active="0" id="{D410A84C-F7A0-4B96-86E7-A2264A33035B}">
+			<name value="QAG 2 Oleg"/>
+			<host value="office.qag-dw.grot.de"/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><username value=""/><errorInterval value="5"/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><memo value=""/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<sendString value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="2" active="0" id="{061BE021-948C-4831-8DE4-CAE98F6E8852}">
+			<name value="QAG 3 Kornelia"/>
+			<host value="office.qag-dw.grot.de"/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><username/><errorInterval value="5"/><admin value="0"/><fullScreen value="1"/><public value="0"/><width/><height/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources/><maximized value="1"/>
+			<sendReceive value="0"/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<sendString value=""/>
+			<runAsAdmin/></host>
+		<host groupId="1" active="0" id="{E683B85E-A710-4068-9386-460D071D2C78}">
+			<name value="VA Server"/>
+			<host value="office.praxis-va.grot.de"/>
+			<port value="3389"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value="Administrator"/><password value="40210@praxis-va.cd"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value="1280"/><height value="1024"/><protocol value="1"/><openWith value="2"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="0" active="0" id="{7760AED5-7E90-483A-A329-E25B7E95A38D}">
+			<name value="AK Server"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="3389"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><errorInterval value="5"/><username value="Administrator"/><password value="7832@praxis.cd"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value="1280"/><height value="1024"/><protocol value="1"/><openWith value="2"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="0" active="0" id="{3FBAB496-88FE-4A50-9A3D-0AE418DD9B6A}">
+			<name value="AK 4 (EKG)"/>
+			<host value="office.praxis-ak.grot.de"/>
+			<port value="57074"/>
+			<interval value="60"/>
+			<timeout value="2"/><service value="1"/><password value="feo40699"/><username value=""/><errorInterval value="5"/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><memo value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0" id="{2DA3954F-0066-453C-AF02-FB8E0A4ED1B4}"><name value="VA TS01"/><host value="office.praxis-va.grot.de"/><port value="57071"/><interval value="60"/><timeout value="2"/><service value="1"/><password value="feo40699"/><errorInterval value="5"/><username value=""/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="2"/><openWith value="3"/><openWithPath value="C:\Program Files\TightVNC\tvnviewer.exe"/><resources value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/>
+		</host><host groupId="0" active="0" id="{143A0155-BE37-4799-9035-CEA64184DE33}"><name value="AK Router"/><host value="office.praxis-ak.grot.de"/><port value="450"/><interval value="60"/><timeout value="2"/><service value="3"/><username value=""/><password value=""/><errorInterval value="5"/><admin value="0"/><fullScreen value="0"/><public value="0"/><protocol value="7"/><width value=""/><height value=""/><memo value=""/><openWith value="7"/>
+			<sendReceive value="0"/>
+			<resources value=""/>
+			<maximized value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin/>
+		</host><host groupId="1" active="0" id="{029D45F0-611C-46D2-AA7E-B025DCE1E988}"><name value="VA Router"/><host value="office.praxis-va.grot.de"/><port value="450"/><interval value="60"/><timeout value="2"/><service value="3"/><username value=""/><password value=""/><errorInterval value="5"/><memo value=""/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value=""/><height value=""/><protocol value="7"/><openWith value="7"/><resources value=""/>
+			<maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin/>
+		</host><host groupId="2147483646" active="0" id="{CF2FCB04-67BE-4800-B1DA-2C00F29B1972}"><service value="2"/><name value="all-incl.com FTP"/><host value="w00b0aad.kasserver.com"/><port value="21"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="w00b0aad"/><password value="amZhGHfF46ANxNMC"/><memo value="ZnRwOi8vdzAwYjBhYWQ6YW1aaEdIZkY0NkFOeE5NQ0A4NS4xMy4xMzguMjI5OjIxLw=="/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="3"/><openWith value="9"/><resources value=""/><openWithPath value="C:\Program Files\FileZilla FTP Client\filezilla.exe"/><maximized value="1"/>
+			<receiveString value=""/>
+			<receiveStringResult/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<runAsAdmin value="1"/>
+			<protocolId value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><softId value="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"/><soft/></host><host groupId="1" active="0" id="{B627D0F4-768E-4657-A594-F0141ACC965C}"><service value="2"/><name value="VA Strato"/><host value="www.psychotherapie-agadzanov.de"/><port value="21"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="www.psychotherapie-agadzanov.de"/><password value="QZ4a#SJPrA"/><memo value=""/><admin value="0"/><fullScreen value="1"/><public value="0"/><protocol value="3"/><width value=""/><height value=""/><openWith value="9"/><resources value=""/>
+			<maximized value="1"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="1"/>
+		</host><host groupId="2147483646" active="0" id="{0A124BC8-0D22-4B9F-95BE-F5766E44EEBB}"><service value="2"/><protocol value="5"/><name value="OC Yandex"/><host value="webdav.yandex.ru"/><resources value="/"/><port value="443"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oleg.chensky"/><password value="Feofan40699"/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="5"/><memo value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="4" active="0" id="{0F6E122E-2712-4231-B417-F6DBAAFB1199}">
+			<service value="3"/>
+			<protocol value="7"/>
+			<name value="TZD Router"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="450"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value=""/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="7"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="4" active="0" id="{9852E928-6259-4EC4-9894-9F07DFBCF3CF}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS1"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57071"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/>
+		</host>
+		<host groupId="1" active="0" id="{5DFC2048-E838-489F-A54F-5A190DAC7EEF}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="VA TS07 MeDoSys"/>
+			<host value="office.praxis-va.grot.de"/>
+			<resources value=""/>
+			<port value="57077"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin/></host>
+		<host groupId="4" active="0" id="{97D6883B-A0EB-479A-8026-EAEB97D40743}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS2"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57072"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/></host>
+		<host groupId="4" active="0" id="{70B59403-9419-44BC-88EB-375AB9D3568F}">
+			<service value="1"/>
+			<protocol value="2"/>
+			<name value="TZD WS3"/>
+			<host value="tzd.grot.de"/>
+			<resources value=""/>
+			<port value="57073"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value=""/>
+			<password value="feo40699"/>
+			<admin value="0"/>
+			<maximized value="1"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="3"/>
+			<memo value=""/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value="UkZCIDAwMy4wMDg="/>
+			<runAsAdmin value="0"/></host>
+		<host groupId="2" active="0">
+			<service value="2"/>
+			<protocol value="3"/>
+			<name value="QAG FTP"/>
+			<host value="w0168bf0.kasserver.com"/>
+			<resources value=""/>
+			<port value="21"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value="w0168bf0"/>
+			<password value="yWzkWR2NkEkk"/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="9"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<memo value=""/>
+			<runAsAdmin value="1"/>
+		</host>
+		<host groupId="8" active="0">
+			<service value="3"/>
+			<protocol value="7"/>
+			<name value="WP chensky.de"/>
+			<host value="chensky.de"/>
+			<resources value="/wp-admin/"/>
+			<port value="443"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="5"/>
+			<username value=""/>
+			<password value=""/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<sendReceive value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="7"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<memo value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="8" active="0">
+			<service value="3"/>
+			<protocol value="7"/>
+			<name value="WP qag-direktwerbung.de"/>
+			<host value="qag-direktwerbung.de"/>
+			<resources value="/wp-admin/"/>
+			<port value="443"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="5"/>
+			<username value=""/>
+			<password value=""/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="7"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<memo value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="8" active="0">
+			<service value="3"/>
+			<protocol value="7"/>
+			<name value="WP mvz-intermed.de"/>
+			<host value="mvz-intermed.de"/>
+			<resources value="/wp-admin/"/>
+			<port value="443"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="5"/>
+			<username value=""/>
+			<password value=""/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="7"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<memo value=""/>
+			<runAsAdmin/>
+		</host>
+		<host groupId="1" active="0"><service value="1"/><protocol value="2"/><name value="VA TS08"/><host value="office.praxis-va.grot.de"/><resources value=""/><port value="57078"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="1"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/></host><host groupId="2147483646" active="0"><service value="1"/><protocol value="2"/><name value="VBox"/><host value="starkindu.grot.de"/><resources value=""/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/><protocolId value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/><softId value="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"/><soft/></host><host groupId="5" active="0"><service value="1"/><protocol value="2"/><name value="Kids Windows"/><host value="kids.grot.de"/><resources value="/"/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><sendReceive value="0"/><runAsAdmin value="0"/><width value=""/><height value=""/><openWith value="3"/><sendString value=""/><receiveString value=""/><memo value=""/></host><host groupId="5" active="0"><service value="1"/><protocol value="2"/><name value="BeFo WS1"/><host value="befo.grot.de"/><resources value="/"/><port value="5900"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="аущ40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="2" active="0"><service value="1"/><protocol value="2"/><name value="QAG 4 Alex"/><host value="office.qag-dw.grot.de"/><resources value=""/><port value="57074"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="1"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/></host><host groupId="5" active="0"><service value="3"/><protocol value="7"/><name value="Kids Router"/><host value="kids.grot.de"/><resources value="/"/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="4" active="0"><service value="3"/><protocol value="7"/><name value="GTZ Router"/><host value="tzg.grot.de"/><resources value=""/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="2147483646" active="1"><service value="1"/><protocol value="1"/><name value="buch.grot.de"/><host value="buch.grot.de"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oc"/><password value="141190@list.ru"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="2"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/></host><host groupId="4" active="0"><service value="1"/><protocol value="2"/><name value="GTZ WS1 Boss"/><host value="tzg.grot.de"/><resources value=""/><port value="57071"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="4" active="0"><service value="1"/><protocol value="2"/><name value="GTZ WS2 Reception"/><host value="tzg.grot.de"/><resources value=""/><port value="57072"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="1" active="0"><service value="1"/><protocol value="2"/><name value="VA TS09"/><host value="office.praxis-va.grot.de"/><resources value=""/><port value="57079"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="feo40699"/><admin value="0"/><maximized value="1"/><public value="0"/><width value=""/><height value=""/><openWith value="3"/><sendReceive value="0"/><sendString value=""/><receiveString value="UkZCIDAwMy4wMDg="/><runAsAdmin value="0"/><memo value=""/></host><host groupId="5" active="0"><service value="3"/><protocol value="7"/><name value="BeFo Router"/><host value="befo.grot.de"/><resources value="/"/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value="аущ40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="2147483646" active="0"><service value="3"/><protocol value="7"/><name value="buch.grot.de R"/><host value="buch.grot.de"/><resources value=""/><port value="450"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oc"/><password value="141190@list.ru"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="7"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/><softId value="{FAED4D3F-BA4D-4E37-9F16-60E7BD993707}"/></host>
+		<host groupId="2147483646" active="1">
+			<service value="1"/>
+			<protocol value="1"/>
+			<name value="Srv2008vpn"/>
+			<host value="buch.grot.de"/>
+			<resources value=""/>
+			<port value="57000"/>
+			<interval value="60"/>
+			<errorInterval value="5"/>
+			<timeout value="2"/>
+			<username value="Administrator"/>
+			<password value="Feofan40699"/>
+			<admin value="0"/>
+			<maximized value="0"/>
+			<public value="0"/>
+			<width value=""/>
+			<height value=""/>
+			<openWith value="2"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<memo value=""/>
+			<protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/>
+			<softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/>
+			<additionalParameters>
+				<parameter>
+					<name value="administrative session"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Administrative Session"/>
+					<description value="Connect to the administrative session of the remote computer."/>
+					<settings>
+						<setting>
+							<data value="0"/>
+							<title value="No"/>
+							<description value="Do not use the administrative session."/>
+						</setting>
+						<setting>
+							<data value="1"/>
+							<title value="Yes"/>
+							<description value="Connect to the administrative session."/>
+						</setting>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="allow desktop composition"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Allow Desktop Composition"/>
+					<description value="Determines whether desktop composition (needed for Aero) is permitted when you log on to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="allow font smoothing"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Allow Font Smoothing"/>
+					<description value="Determines whether font smoothing may be used in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="alternate full address"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Alternate full Address"/>
+					<description value="Specifies an alternate name or IP address of the remote computer that you want to connect to."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="alternate shell"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Alternate Shell"/>
+					<description value="Specifies a program to be started automatically when you connect to a remote computer. The value should be a valid path to an executable file."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="audiocapturemode"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Audio capture Mode"/>
+					<description value="Determines how sounds captured (recorded) on the local computer are handled when you are connected to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="audiomode"/>
+					<type value="integerlist"/>
+					<data value="0"/>
+					<title value="Audio Mode"/>
+					<description value="Determines how sounds on a remote computer are handled when you are connected to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="audioqualitymode"/>
+					<type value="integerlist"/>
+					<data value="0"/>
+					<title value="Audio quality Mode"/>
+					<description value="Determines the quality of the audio played in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="authentication level"/>
+					<type value="integerlist"/>
+					<data value="2"/>
+					<title value="Authentication Level"/>
+					<description value="Determines what should happen when server authentication fails."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="autoreconnect max retries"/>
+					<type value="integer"/>
+					<data value="20"/>
+					<maxvalue value="200"/>
+					<title value="Autoreconnect max Retries"/>
+					<description value="Determines the maximum number of times the client computer will try to reconnect to the remote computer if the connection is dropped."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="autoreconnection enabled"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Autoreconnection enabled"/>
+					<description value="Determines whether the client computer will automatically try to reconnect to the remote computer if the connection is dropped."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="bandwidthautodetect"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Bandwidth Autodetect"/>
+					<description value="Enables the option for automatic detection of the network type. Used in conjunction with networkautodetect. Also see connection type."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="bitmapcachepersistenable"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Bitmap Cachepersist enable"/>
+					<description value="Determines whether bitmaps are cached on the local computer (disk-based cache). Bitmap caching can improve the performance of your remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="bitmapcachesize"/>
+					<type value="integer"/>
+					<data value="1500"/>
+					<maxvalue value="32000"/>
+					<title value="Bitmap Cache Size"/>
+					<description value="Specifies the size in kilobytes of the memory-based bitmap cache. The maximum value is 32000."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="compression"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Compression"/>
+					<description value="Determines whether the connection should use bulk compression."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="connect to console"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Connect to Console"/>
+					<description value="Connect to the console session of the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="connection type"/>
+					<type value="integerlist"/>
+					<data value="2"/>
+					<title value="Connection Type"/>
+					<description value="Specifies pre-defined performance settings for the Remote Desktop session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="desktopheight"/>
+					<type value="integer"/>
+					<data value="600"/>
+					<title value="Desktop Height"/>
+					<description value="The height (in pixels) of the remote session desktop."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="desktop size id"/>
+					<type value="integerlist"/>
+					<data value="0"/>
+					<title value="Desktop Size"/>
+					<description value="Specifies pre-defined dimensions of the remote session desktop."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="desktopwidth"/>
+					<type value="integer"/>
+					<data value="800"/>
+					<title value="Desktop Width"/>
+					<description value="The width (in pixels) of the remote session desktop."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="devicestoredirect"/>
+					<type value="stringlist"/>
+					<data value=""/>
+					<title value="Devices to Redirect"/>
+					<description value="Determines which supported Plug and Play devices on the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disable ctrl+alt+del"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Disable CTRL+ALT+DELETE"/>
+					<description value="Determines whether you have to press CTRL+ALT+DELETE before entering credentials after you are connected to the remote computer. When disabled, this setting will also delay the autologin until the user has pressed CTRL+ALT+DELETE."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disable menu anims"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Disable Menu Animations"/>
+					<description value="Determines whether menus and windows can be displayed with animation effects in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disable themes"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Disable Themess"/>
+					<description value="Determines whether themes are permitted when you log on to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disable wallpaper"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Disable Wallpaper"/>
+					<description value="Determines whether the desktop background is displayed in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disableconnectionsharing"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Disable Connection Sharing"/>
+					<description value="Determines whether a new Terminal Server session is started with every launch of a RemoteApp to the same computer and with the same credentials."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="disableremoteappcapscheck"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Disable RemoteApp Capabilities Check"/>
+					<description value="Specifies whether the Remote Desktop client should check the remote computer for RemoteApp capabilities."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="displayconnectionbar"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Display Connection Bar"/>
+					<description value="Determines whether the connection bar appears when you are in full screen mode."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="domain"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Domain"/>
+					<description value="Specifies the name of the domain of the user."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="drivestoredirect"/>
+					<type value="stringlist"/>
+					<data value=""/>
+					<title value="Drives to Redirect"/>
+					<description value="Determines which local disk drives on the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="enablecredsspsupport"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Enable CredSSP Support"/>
+					<description value="Determines whether Remote Desktop will use CredSSP for authentication if it’s available."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="enablesuperpan"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Enable SuperPan"/>
+					<description value="Determines whether SuperPan is enabled or disabled."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="full address"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Full Address"/>
+					<description value="Specifies the name or IP address (and optional port) of the remote computer that you want to connect to."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="gatewaycredentialssource"/>
+					<type value="integerlist"/>
+					<data value="4"/>
+					<title value="Gateway Credentials Source"/>
+					<description value="Specifies the credentials that should be used to validate the connection with the RD Gateway."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="gatewayhostname"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Gateway Hostname"/>
+					<description value="Specifies the hostname of the RD Gateway."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="gatewayprofileusagemethod"/>
+					<type value="boolean"/>
+					<data value="4"/>
+					<title value="Gateway Profile usage Method"/>
+					<description value="Determines the RD Gateway authentication method to be used."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="gatewayusagemethod"/>
+					<type value="integerlist"/>
+					<data value="4"/>
+					<title value="Gateway usage Method"/>
+					<description value="Specifies if and how to use a Remote Desktop Gateway (RD Gateway) server. 0 and 4 have the same effect, but setting the method to 4 also sets the option for bypassing local addresses in the Remote Desktop user interface."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="keyboardhook"/>
+					<type value="integerlist"/>
+					<data value="2"/>
+					<title value="Keyboard Hook"/>
+					<description value="Determines how Windows key combinations are applied when you are connected to a remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="negotiate security layer"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Negotiate security Layer"/>
+					<description value="Determines whether the level of security is negotiated or not."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="networkautodetect"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Network Autodetect"/>
+					<description value="Determines whether to use auomatic network bandwidth detection or not. Requires the option Bandwidth Autodetect to be set and correlates with connection type 7."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="pinconnectionbar"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Pin Connection Bar"/>
+					<description value="Determines whether or not the connection bar should be pinned to the top of the remote session upon connection when in full screen mode."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="prompt for credentials"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Prompt for Credentials"/>
+					<description value="Determines whether Remote Desktop Connection will prompt for credentials when connecting to a remote computer for which the credentials have been previously saved."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="prompt for credentials on client"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Prompt for Credentials on Client"/>
+					<description value="Determines whether Remote Desktop Connection will prompt for credentials when connecting to a server that does not support server authentication."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="promptcredentialonce"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Prompt Credential once"/>
+					<description value="When connecting through an RD Gateway, determines whether RDC should use the same credentials for both the RD Gateway and the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="public mode"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Public Mode"/>
+					<description value="Determines whether Remote Desktop Connection will be started in public mode. This setting is incompatible with Autologin and some other features."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectclipboard"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Redirect Clipboard"/>
+					<description value="Determines whether the clipboard on the client computer will be redirected and available in the remote session and vice versa."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectcomports"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Redirect COM Ports"/>
+					<description value="Determines whether the COM (serial) ports on the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectdirectx"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Redirect DirectX"/>
+					<description value="Determines whether DirectX will be enabled for the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectdrives"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Redirect Drives"/>
+					<description value="Determines whether local disk drives on the client computer will be redirected and available in the remote session. This setting is replaced by Drives to Redirect from RDC 6.0 onward."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectposdevices"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Redirect POS Devices"/>
+					<description value="Determines whether Microsoft Point of Service (POS) for .NET devices connected to the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectprinters"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Redirect Printers"/>
+					<description value="Determines whether printers configured on the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="redirectsmartcards"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Redirect Smart Cards"/>
+					<description value="Determines whether smart card devices on the client computer will be redirected and available in the remote session."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="remoteapplicationcmdline"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Remote Application CMD Line"/>
+					<description value="Optional command line parameters for the Remote Application."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="remoteapplicationfile"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Remote Application File"/>
+					<description value="Specifies a file to be opened on the remote computer by the RemoteApp. For local files to be opened, you must also enable drive redirection for (at least) the source drive."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="remoteapplicationexpandcmdline"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Remote Application expand CMD Line"/>
+					<description value="Determines whether environment variables contained in the RemoteApp command line parameter should be expanded locally or remotely."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="remoteapplicationexpandworkingdir"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Remote Application expand working Directory"/>
+					<description value="Determines whether environment variables contained in the RemoteApp working directory parameter should be expanded locally or remotely."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="remoteapplicationicon"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Remote Application Icon"/>
+					<description value="Specifies the file name of an icon file to be displayed in the Remote Desktop interface while starting the RemoteApp. By default RDC will show the standard Remote Desktop icon. Only .ico files are supported."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="remoteapplicationname"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Remote Application Name"/>
+					<description value="Specifies the name of the RemoteApp in the Remote Desktop interface while starting the Remote Application."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="remoteapplicationmode"/>
+					<type value="integerlist"/>
+					<data value="0"/>
+					<title value="Remote Application Mode"/>
+					<description value="Determines whether a RemoteApp shoud be launched when connecting to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="remoteapplicationprogram"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Remote Application Program"/>
+					<description value="Specifies the alias or executable name of the Remote Application."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="screen mode id"/>
+					<type value="integerlist"/>
+					<data value="2"/>
+					<title value="Screen Mode Id"/>
+					<description value="Determines whether the remote session window appears full screen when you connect to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="server port"/>
+					<type value="integer"/>
+					<data value="3389"/>
+					<title value="Server Port"/>
+					<description value="Defines an alternate default port for the Remote Desktop connection. Will be overruled by any port number appended to the server name."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="session bpp"/>
+					<type value="integerlist"/>
+					<data value="32"/>
+					<title value="Session BPP"/>
+					<description value="Determines the color depth (in bits) on the remote computer when you connect."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="shell working directory"/>
+					<type value="string"/>
+					<data value=""/>
+					<title value="Shell working Directory"/>
+					<description value="The working directory on the remote computer to be used if an alternate shell is specified."/>
+					<settings/></parameter>
+				<parameter>
+					<name value="smart sizing"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Smart Sizing"/>
+					<description value="Determines whether the client computer should scale the content on the remote computer to fit the window size of the client computer when the window is resized."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="span monitors"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Span Monitors"/>
+					<description value="Determines whether the remote session window will be spanned across multiple monitors when you connect to the remote computer. When using Remote Desktop Connection 7 (Windows 7/2008), the Use Multimon setting is recommended."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="superpanaccelerationfactor"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="SuperPan Acceleration Factor"/>
+					<description value="Specifies the number of pixels that the screen view scrolls in a given direction for every pixel of mouse movement by the client when in SuperPan mode."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="usbdevicestoredirect"/>
+					<type value="stringlist"/>
+					<data value=""/>
+					<title value="USB Devices to Redirect"/>
+					<description value="Determines which supported RemoteFX USB devices on the client computer will be redirected and available in the remote session when you connect to a remote session that supports RemoteFX USB redirection."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="use multimon"/>
+					<type value="boolean"/>
+					<data value="0"/>
+					<title value="Use Multimonior"/>
+					<description value="Determines whether the session should use true multiple monitor support when connecting to the remote computer."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="videoplaybackmode"/>
+					<type value="boolean"/>
+					<data value="1"/>
+					<title value="Video Playback Mode"/>
+					<description value="Determines whether RDC will use RDP efficient multimedia streaming for video playback."/>
+					<settings>
+					</settings>
+				</parameter>
+				<parameter>
+					<name value="winposstr"/>
+					<type value="string"/>
+					<data value="0,3,0,0,800,600"/>
+					<title value="Window Positions"/>
+					<description value="Specifies the position and dimensions of the session window on the client computer."/>
+					<settings/></parameter>
+			</additionalParameters>
+		</host>
+		<host groupId="2147483646" active="0"><service value="1"/><protocol value="1"/><name value="vpn.1prime.ru"/><host value="192.168.4.119"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky@1prime.ru"/><password value="Feofan40699"/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="2"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="DS-Node-01"/><host value="DS-Node-01"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><sendReceive value="0"/><runAsAdmin value="0"/><width value=""/><height value=""/><sendString value=""/><receiveString value=""/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="DS-Node-02"/><host value="DS-Node-02"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="DS-Node-03"/><host value="DS-Node-03"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Esb-infra-prod"/><host value="Esb-infra-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Esb-app-prod"/><host value="Esb-app-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host><host groupId="3" active="0"><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><name value="Esb-delivery-prod"/><host value="Esb-delivery-prod"/><resources value=""/><port value="3389"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="o.chensky-adm"/><password value="Feofan40699"/><admin value=""/><maximized value="0"/><public value=""/><width value=""/><height value=""/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/></host></hosts>
+	<software x="542" y="262" w="492" h="368" lastPageIdx="1">
+		<soft id="{FAED4D3F-BA4D-4E37-9F16-60E7BD993707}">
+			<name value="SW50ZXJuZXQgRXhwbG9yZXI="/>
+			<path value="QzpcUHJvZ3JhbSBGaWxlc1xpbnRlcm5ldCBleHBsb3JlclxpZXhwbG9yZS5leGU="/>
+			<params value="JVVSSSU="/><supported value="1"/>
+			<protocols>
+				<protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/>
+			</protocols>
+			<defaultData>
+				<mask value="%NAME%:%TYPE%:%DATA%"/>
+				<additionalParameters>
+					<parameter>
+						<name value="administrative session"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Administrative Session"/>
+						<description value="Connect to the administrative session of the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<descritpion value="Do not use the administrative session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Connect to the administrative session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="allow desktop composition"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Allow Desktop Composition"/>
+						<description value="Determines whether desktop composition (needed for Aero) is permitted when you log on to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Disable desktop composition in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Desktop composition is permitted."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="allow font smoothing"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Allow Font Smoothing"/>
+						<description value="Determines whether font smoothing may be used in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Disable font smoothing in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Font smoothing is permitted."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="alternate full address"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Alternate full Address"/>
+						<description value="Specifies an alternate name or IP address of the remote computer that you want to connect to."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="alternate shell"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Alternate Shell"/>
+						<description value="Specifies a program to be started automatically when you connect to a remote computer. The value should be a valid path to an executable file."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="audiocapturemode"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Audio capture Mode"/>
+						<description value="Determines how sounds captured (recorded) on the local computer are handled when you are connected to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not capture audio from the local computer."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Capture audio from the local computer and send to the remote computer."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="audiomode"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Audio Mode"/>
+						<description value="Determines how sounds on a remote computer are handled when you are connected to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Play sounds on the local computer."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Play sounds on the remote computer."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="Do not play sounds."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="audioqualitymode"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Audio quality Mode"/>
+						<description value="Determines the quality of the audio played in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Dynamically adjust audio quality based on available bandwidth."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Always use medium audio quality."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="Always use uncompressed audio quality."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="authentication level"/>
+						<type value="integer"/>
+						<data value="2"/>
+						<title value="Authentication Level"/>
+						<description value="Determines what should happen when server authentication fails."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="If server authentication fails, connect without giving a warning."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="If server authentication fails, do not connect."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="If server authentication fails, show a warning and allow the user to connect or not."/>
+							</setting>
+							<setting>
+								<data value="3"/>
+								<title value="3"/>
+								<description value="Server authentication is not required."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="autoreconnect max retries"/>
+						<type value="integer"/>
+						<data value="20"/>
+						<maxvalue value="200"/>
+						<title value="Autoreconnect max Retries"/>
+						<description value="Determines the maximum number of times the client computer will try to reconnect to the remote computer if the connection is dropped."/>
+					</parameter>
+					<parameter>
+						<name value="autoreconnection enabled"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Autoreconnection enabled"/>
+						<description value="Determines whether the client computer will automatically try to reconnect to the remote computer if the connection is dropped."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not attempt to reconnect."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Attempt to reconnect."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="bandwidthautodetect"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Bandwidth Autodetect"/>
+						<description value="Enables the option for automatic detection of the network type. Used in conjunction with networkautodetect. Also see connection type."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not enable the option for automatic network detection."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Enable the option for automatic network detection."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="bitmapcachepersistenable"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Bitmap Cachepersist enable"/>
+						<description value="Determines whether bitmaps are cached on the local computer (disk-based cache). Bitmap caching can improve the performance of your remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not cache bitmaps."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Cache bitmaps."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="bitmapcachesize"/>
+						<type value="integer"/>
+						<data value="1500"/>
+						<maxvalue value="32000"/>
+						<title value="Bitmap Cache Size"/>
+						<description value="Specifies the size in kilobytes of the memory-based bitmap cache. The maximum value is 32000."/>
+					</parameter>
+					<parameter>
+						<name value="compression"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Compression"/>
+						<description value="Determines whether the connection should use bulk compression."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not use bulk compression."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Use bulk compression."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="connect to console"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Connect to Console"/>
+						<description value="Connect to the console session of the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Connect to a normal session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Connect to the console screen."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="connection type"/>
+						<type value="integer"/>
+						<data value="2"/>
+						<title value="Connection Type"/>
+						<description value="Specifies pre-defined performance settings for the Remote Desktop session."/>
+						<settings>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Modem (56 Kbps)."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="Low-speed broadband (256 Kbps – 2 Mbps)."/>
+							</setting>
+							<setting>
+								<data value="3"/>
+								<title value="3"/>
+								<description value="Satellite (2 Mbps – 16 Mbps with high latency)."/>
+							</setting>
+							<setting>
+								<data value="4"/>
+								<title value="4"/>
+								<description value="High-speed broadband (2 Mbps – 10 Mbps)."/>
+							</setting>
+							<setting>
+								<data value="5"/>
+								<title value="5"/>
+								<description value="WAN (10 Mbps or higher with high latency)."/>
+							</setting>
+							<setting>
+								<data value="6"/>
+								<title value="6"/>
+								<description value="LAN (10 Mbps or higher)."/>
+							</setting>
+							<setting>
+								<data value="7"/>
+								<title value="7"/>
+								<description value="Automatic bandwidth detection. Requires Bandwidth Autodetect."/>
+								<description value="By itself, this setting does nothing. When selected in the RDC GUI, this option changes several performance related settings (themes, animation, font smoothing, etcetera). These separate settings always overrule the connection type setting."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="desktopheight"/>
+						<type value="integer"/>
+						<data value="600"/>
+						<title value="Desktop Height"/>
+						<description value="The height (in pixels) of the remote session desktop."/>
+					</parameter>
+					<parameter>
+						<name value="desktop size id"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Desktop Size"/>
+						<description value="Specifies pre-defined dimensions of the remote session desktop."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="640×480."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="800×600."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="1024×768."/>
+							</setting>
+							<setting>
+								<data value="3"/>
+								<title value="3"/>
+								<description value="1280×1024."/>
+							</setting>
+							<setting>
+								<data value="4"/>
+								<title value="4"/>
+								<description value="1600×1200."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="desktopwidth"/>
+						<type value="integer"/>
+						<data value="800"/>
+						<title value="Desktop Width"/>
+						<description value="The width (in pixels) of the remote session desktop."/>
+					</parameter>
+					<parameter>
+						<name value="devicestoredirect"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Devices to Redirect"/>
+						<description value="Determines which supported Plug and Play devices on the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value="No Values"/>
+								<description value="Do not redirect any supported Plug and Play devices."/>
+							</setting>
+							<setting>
+								<data value="*"/>
+								<title value="*"/>
+								<description value="Redirect all supported Plug and Play devices, including ones that are connected later."/>
+							</setting>
+							<setting>
+								<data value="DynamicDevices"/>
+								<title value="Dynamic Devices"/>
+								<description value="Redirect any supported Plug and Play devices that are connected later."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disable ctrl+alt+del"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Disable CTRL+ALT+DELETE"/>
+						<description value="Determines whether you have to press CTRL+ALT+DELETE before entering credentials after you are connected to the remote computer. When disabled, this setting will also delay the autologin until the user has pressed CTRL+ALT+DELETE."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="CTRL+ALT+DELETE is required before logging in."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="CTRL+ALT+DELETE is not required. You can logon immediately."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disable menu anims"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Disable Menu Animations"/>
+						<description value="Determines whether menus and windows can be displayed with animation effects in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Menu and window animation is permitted."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="No menu and window animation."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disable themes"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Disable Themess"/>
+						<description value="Determines whether themes are permitted when you log on to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Themes are permitted."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Disable theme in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disable wallpaper"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Disable Wallpaper"/>
+						<description value="Determines whether the desktop background is displayed in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Display the wallpaper."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Do not show any wallpaper."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disableconnectionsharing"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Disable Connection Sharing"/>
+						<description value="Determines whether a new Terminal Server session is started with every launch of a RemoteApp to the same computer and with the same credentials."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not show the connection bar."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Show the connection bar."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="disableremoteappcapscheck"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Disable RemoteApp Capabilities Check"/>
+						<description value="Specifies whether the Remote Desktop client should check the remote computer for RemoteApp capabilities."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Check the remote computer for RemoteApp capabilities before logging in."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Do not check the remote computer for RemoteApp capabilities."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="displayconnectionbar"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Display Connection Bar"/>
+						<description value="Determines whether the connection bar appears when you are in full screen mode."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not show the connection bar."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Show the connection bar."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="domain"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Domain"/>
+						<description value="Specifies the name of the domain of the user."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="drivestoredirect"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Drives to Redirect"/>
+						<description value="Determines which local disk drives on the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value="Do not redirect any drives."/>
+							</setting>
+							<setting>
+								<data value="*"/>
+								<title value="All"/>
+								<description value="Redirect all disk drives, including drives that are connected later."/>
+							</setting>
+							<setting>
+								<data value="DynamicDrives"/>
+								<title value="Dynamic Drives"/>
+								<description value="Redirect any drives that are connected later."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="enablecredsspsupport"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Enable CredSSP Support"/>
+						<description value="Determines whether Remote Desktop will use CredSSP for authentication if it’s available."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not use CredSSP, even if the operating system supports it."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Use CredSSP, if the operating system supports it."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="enablesuperpan"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Enable SuperPan"/>
+						<description value="Determines whether SuperPan is enabled or disabled."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not use SuperPan. The remote session window is sized to the client window size."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Enable SuperPan. The remote session window is sized to the dimensions specified through Desktop Width and Desktop Height."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="full address"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Full Address"/>
+						<description value="Specifies the name or IP address (and optional port) of the remote computer that you want to connect to."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="gatewaycredentialssource"/>
+						<type value="integer"/>
+						<data value="4"/>
+						<title value="Gateway Credentials Source"/>
+						<description value="Specifies the credentials that should be used to validate the connection with the RD Gateway."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Ask for password (NTLM)."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Use smart card."/>
+							</setting>
+							<setting>
+								<data value="4"/>
+								<title value="4"/>
+								<description value="Allow user to select later."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="gatewayhostname"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Gateway Hostname"/>
+						<description value="Specifies the hostname of the RD Gateway."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="gatewayprofileusagemethod"/>
+						<type value="integer"/>
+						<data value="4"/>
+						<title value="Gateway Profile usage Method"/>
+						<description value="Determines the RD Gateway authentication method to be used."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Use the default profile mode, as specified by the administrator."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Use explicit settings."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="gatewayusagemethod"/>
+						<type value="integer"/>
+						<data value="4"/>
+						<title value="Gateway usage Method"/>
+						<description value="Specifies if and how to use a Remote Desktop Gateway (RD Gateway) server. 0 and 4 have the same effect, but setting the method to 4 also sets the option for bypassing local addresses in the Remote Desktop user interface."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Do not use an RD Gateway server."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Always use an RD Gateway, even for local connections."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="Use the RD Gateway if a direct connection cannot be made to the remote computer (i.e. bypass for local addresses)."/>
+							</setting>
+							<setting>
+								<data value="3"/>
+								<title value="3"/>
+								<description value="Use the default RD Gateway settings."/>
+							</setting>
+							<setting>
+								<data value="4"/>
+								<title value="4"/>
+								<description value="Do not use an RD Gateway server."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="keyboardhook"/>
+						<type value="integer"/>
+						<data value="2"/>
+						<title value="Keyboard Hook"/>
+						<description value="Determines how Windows key combinations are applied when you are connected to a remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Windows key combinations are applied on the local computer."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Windows key combinations are applied on the remote computer."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="Windows key combinations are applied in full-screen mode only."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="negotiate security layer"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Negotiate security Layer"/>
+						<description value="Determines whether the level of security is negotiated or not."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Security layer negotiation is not enabled and the session is started by using Secure Sockets Layer (SSL)."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Security layer negotiation is enabled and the session is started by using x.224 encryption."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="networkautodetect"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Network Autodetect"/>
+						<description value="Determines whether to use auomatic network bandwidth detection or not. Requires the option Bandwidth Autodetect to be set and correlates with connection type 7."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Use automatic network bandwitdh detection."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Do not use automatic network bandwitdh detection."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="password 51"/>
+						<type value="binary"/>
+						<data value=""/>
+						<title value="Password"/>
+						<description value="The user password"/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="pinconnectionbar"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Pin Connection Bar"/>
+						<description value="Determines whether or not the connection bar should be pinned to the top of the remote session upon connection when in full screen mode."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The connection bar should not be pinned to the top of the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The connection bar should be pinned to the top of the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="prompt for credentials"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Prompt for Credentials"/>
+						<description value="Determines whether Remote Desktop Connection will prompt for credentials when connecting to a remote computer for which the credentials have been previously saved."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Remote Desktop will use the saved credentials and will not prompt for credentials."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Remote Desktop will prompt for credentials."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="prompt for credentials on client"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Prompt for Credentials on Client"/>
+						<description value="Determines whether Remote Desktop Connection will prompt for credentials when connecting to a server that does not support server authentication."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Remote Desktop will not prompt for credentials."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Remote Desktop will prompt for credentials."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="promptcredentialonce"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Prompt Credential once"/>
+						<description value="When connecting through an RD Gateway, determines whether RDC should use the same credentials for both the RD Gateway and the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Remote Desktop will not use the same credentials."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Remote Desktop will use the same credentials for both the RD gateway and the remote computer."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="public mode"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Public Mode"/>
+						<description value="Determines whether Remote Desktop Connection will be started in public mode. This setting is incompatible with Autologin and some other features."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Remote Desktop will not start in public mode."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Remote Desktop will start in public mode and will not save any user data (credentials, bitmap cache, MRU) on the local machine."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectclipboard"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Redirect Clipboard"/>
+						<description value="Determines whether the clipboard on the client computer will be redirected and available in the remote session and vice versa."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not redirect the clipboard."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Redirect the clipboard."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectcomports"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Redirect COM Ports"/>
+						<description value="Determines whether the COM (serial) ports on the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The COM ports on the local computer are not available in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The COM ports on the local computer are available in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectdirectx"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Redirect DirectX"/>
+						<description value="Determines whether DirectX will be enabled for the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not enable DirectX rendering."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Enable DirectX rendering in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectdrives"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Redirect Drives"/>
+						<description value="Determines whether local disk drives on the client computer will be redirected and available in the remote session. This setting is replaced by Drives to Redirect from RDC 6.0 onward."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The drives on the local computer are not available in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The drives on the local computer are available in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectposdevices"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Redirect POS Devices"/>
+						<description value="Determines whether Microsoft Point of Service (POS) for .NET devices connected to the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The POS devices from the local computer are not available in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The POS devices from the local computer are available in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectprinters"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Redirect Printers"/>
+						<description value="Determines whether printers configured on the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The printers on the local computer are not available in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The printers on the local computer are available in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="redirectsmartcards"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Redirect Smart Cards"/>
+						<description value="Determines whether smart card devices on the client computer will be redirected and available in the remote session."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The smart card device on the local computer is not available in the remote session."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The smart card device on the local computer is available in the remote session."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationcmdline"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Remote Application CMD Line"/>
+						<description value="Optional command line parameters for the Remote Application."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationfile"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Remote Application File"/>
+						<description value="Specifies a file to be opened on the remote computer by the RemoteApp. For local files to be opened, you must also enable drive redirection for (at least) the source drive."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationexpandcmdline"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Remote Application expand CMD Line"/>
+						<description value="Determines whether environment variables contained in the RemoteApp command line parameter should be expanded locally or remotely."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Environment variables should be expanded to the values of the local computer."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Environment variables should be expanded on the remote computer to the values of the remote computer."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationexpandworkingdir"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Remote Application expand working Directory"/>
+						<description value="Determines whether environment variables contained in the RemoteApp working directory parameter should be expanded locally or remotely."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Environment variables should be expanded to the values of the local computer."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Environment variables should be expanded on the remote computer to the values of the remote computer."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationicon"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Remote Application Icon"/>
+						<description value="Specifies the file name of an icon file to be displayed in the Remote Desktop interface while starting the RemoteApp. By default RDC will show the standard Remote Desktop icon. Only .ico files are supported."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationname"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Remote Application Name"/>
+						<description value="Specifies the name of the RemoteApp in the Remote Desktop interface while starting the Remote Application."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationmode"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Remote Application Mode"/>
+						<description value="Determines whether a RemoteApp shoud be launched when connecting to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="0"/>
+								<description value="Use a normal session and do not start a RemoteApp."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="Connect and launch a RemoteApp."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="remoteapplicationprogram"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Remote Application Program"/>
+						<description value="Specifies the alias or executable name of the Remote Application."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="screen mode id"/>
+						<type value="integer"/>
+						<data value="2"/>
+						<title value="Screen Mode Id"/>
+						<description value="Determines whether the remote session window appears full screen when you connect to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="1"/>
+								<title value="1"/>
+								<description value="The remote session will appear in a window."/>
+							</setting>
+							<setting>
+								<data value="2"/>
+								<title value="2"/>
+								<description value="The remote session will appear full screen."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="server port"/>
+						<type value="integer"/>
+						<data value="3389"/>
+						<title value="Server Port"/>
+						<description value="Defines an alternate default port for the Remote Desktop connection. Will be overruled by any port number appended to the server name."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="session bpp"/>
+						<type value="integer"/>
+						<data value="32"/>
+						<title value="Session BPP"/>
+						<description value="Determines the color depth (in bits) on the remote computer when you connect."/>
+						<settings>
+							<setting>
+								<data value="8"/>
+								<title value="8"/>
+								<description value="256 colors (8 bit)."/>
+							</setting>
+							<setting>
+								<data value="15"/>
+								<title value="15"/>
+								<description value="High color (15 bit)."/>
+							</setting>
+							<setting>
+								<data value="16"/>
+								<title value="16"/>
+								<description value="High color (16 bit)."/>
+							</setting>
+							<setting>
+								<data value="24"/>
+								<title value="24"/>
+								<description value="True color (24 bit)."/>
+							</setting>
+							<setting>
+								<data value="32"/>
+								<title value="32"/>
+								<description value="Highest quality (32 bit)."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="shell working directory"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Shell working Directory"/>
+						<description value="The working directory on the remote computer to be used if an alternate shell is specified."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="smart sizing"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Smart Sizing"/>
+						<description value="Determines whether the client computer should scale the content on the remote computer to fit the window size of the client computer when the window is resized."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="The client window display will not be scaled when resized."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="The client window display will be scaled when resized."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="span monitors"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Span Monitors"/>
+						<description value="Determines whether the remote session window will be spanned across multiple monitors when you connect to the remote computer. When using Remote Desktop Connection 7 (Windows 7/2008), the Use Multimon setting is recommended."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Monitor spanning is not enabled."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Monitor spanning is enabled."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="superpanaccelerationfactor"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="SuperPan Acceleration Factor"/>
+						<description value="Specifies the number of pixels that the screen view scrolls in a given direction for every pixel of mouse movement by the client when in SuperPan mode."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Monitor spanning is not enabled."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Monitor spanning is enabled."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="usbdevicestoredirect"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="USB Devices to Redirect"/>
+						<description value="Determines which supported RemoteFX USB devices on the client computer will be redirected and available in the remote session when you connect to a remote session that supports RemoteFX USB redirection."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value="Do not redirect any supported RemoteFX USB devices."/>
+							</setting>
+							<setting>
+								<data value="*"/>
+								<title value="*"/>
+								<description value="Redirect all supported RemoteFX USB devices for redirection that are not redirected by high-level redirection mechanisms."/>
+							</setting>
+							<setting>
+								<data value="USB\InstanceID"/>
+								<title value="USB\InstanceID"/>
+								<description value="Redirect the supported RemoteFX USB device specified by the given instance ID."/>
+							</setting>
+							<setting>
+								<data value="-USB\InstanceID"/>
+								<title value="Not USB\InstanceID"/>
+								<description value="Do not redirect the supported RemoteFX USB device specified by the given instance ID, even if the device is in a device setup class that is redirected."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="use multimon"/>
+						<type value="integer"/>
+						<data value="0"/>
+						<title value="Use Multimonior"/>
+						<description value="Determines whether the session should use true multiple monitor support when connecting to the remote computer."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not enable multiple monitor support."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Enable multiple monitor support."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="username"/>
+						<type value="string"/>
+						<data value=""/>
+						<title value="Username"/>
+						<description value="Specifies the name of the user account that will be used to log on to the remote computer."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="videoplaybackmode"/>
+						<type value="integer"/>
+						<data value="1"/>
+						<title value="Video Playback Mode"/>
+						<description value="Determines whether RDC will use RDP efficient multimedia streaming for video playback."/>
+						<settings>
+							<setting>
+								<data value="0"/>
+								<title value="No"/>
+								<description value="Do not use RDP efficient multimedia streaming for video playback."/>
+							</setting>
+							<setting>
+								<data value="1"/>
+								<title value="Yes"/>
+								<description value="Use RDP efficient multimedia streaming for video playback when possible."/>
+							</setting>
+						</settings>
+					</parameter>
+					<parameter>
+						<name value="winposstr"/>
+						<type value="string"/>
+						<data value="0,3,0,0,800,600"/>
+						<title value="Window Positions"/>
+						<description value="Specifies the position and dimensions of the session window on the client computer."/>
+						<settings>
+							<setting>
+								<data value=""/>
+								<title value=""/>
+								<description value=""/>
+							</setting>
+						</settings>
+					</parameter>
+				</additionalParameters>
+			</defaultData>
+		</soft>
+		<soft id="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"><name value="TWljcm9zb2Z0IFJlbW90ZSBEZXNrdG9w"/><path value="QzpcV2luZG93c1xTeXN0ZW0zMlxtc3RzYy5leGU="/><params value="JVJEUEZJTEVOQU1FJQ=="/><supported value="1"/><protocols><protocol value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/></protocols></soft><soft id="{EFF711AA-9121-4546-905C-3FC5C7B440EB}"><name value="Vml2YWxkaQ=="/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNzdBQTE5NDEtRUMxNi00RDc2LUI4QjItMjBCREMwODk2RURG&#xA;XEFwcGxpY2F0aW9uXHZpdmFsZGkuZXhl"/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols></soft><soft id="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"><name value="VGhpZ2h0Vk5D"/><path value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><params value="LW9wdGlvbnNmaWxlPSIlVk5DRklMRU5BTUUlIiAtcGFzc3dvcmQ9JVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols></soft><soft id="{A8BB6467-58F8-40DC-8DED-B16D19734C23}"><name value="VWx0cmFWTkM="/><path value=""/><params value="JUhPU1QlOiVQT1JUJSAtcGFzc3dvcmQgJVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols></soft><soft id="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"><name value="VG90YWwgQ29tbWFuZGVy"/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNENkE2MjRB&#xA;XHRjLmV4ZQ=="/><params value="L24gL2k9JVBBVEglXHdpbmNtZC5pbmkgL2Y9JVBBVEglXHdjeF9mdHAuaW5pIC9PIC9SPSVVUkkl&#xA;"/><supported value="0"/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"/></protocols></soft><soft id="{F3AC316D-05EF-435D-817A-72C84B1566BD}"><name value="U3lzdGVtIEJyb3dzZXI="/><path value=""/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols></soft></software>
+	<protocols>
+		<protocol id="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}">
+			<name value="UmVtb3RlIERlc2t0b3AgKFJEUCk="/>
+			<port value="3389"/>
+			<uriText/>
+			<scheme/>
+		</protocol>
+		<protocol id="{407A8DAF-2628-4441-93C5-72EE62A291CA}"><name value="VmlydHVhbCBOZXR3b3JrIENvbXB1dGluZyAoVk5DKQ=="/><port value="5900"/><uriText/><scheme/></protocol><protocol id="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"><name value="RmlsZSBUcmFuc2ZlciAoRlRQKQ=="/><port value="21"/><uriText value="ftp://"/><scheme value="ftp://"/></protocol><protocol id="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"><name value="U2VjdXJlIEZpbGUgVHJhbnNmZXIgKFNGVFAp"/><port value="22"/><uriText value="sftp://"/><scheme value="sftp://"/></protocol><protocol id="{516FB366-0AD0-418D-918A-CCC8C1482311}"><name value="V2ViLWJhc2VkIERpc3RyaWJ1dGVkIEF1dGhvcmluZyBhbmQgVmVyc2lvbmluZyAoV2ViREFWKQ=="/><port value="443"/><uriText value="https://"/><scheme value="https://"/></protocol><protocol id="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVyIChIVFRQKQ=="/><port value="80"/><uriText value="http://"/><scheme value="http://"/></protocol><protocol id="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVyIFNlY3VyZSAoSFRUUFMp"/><port value="443"/><uriText value="https://"/><scheme value="https://"/></protocol><protocol id="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"><name value="U2VjdXJlIFNoZWxsIChTU0gp"/><port value="22"/><uriText/><scheme/>
+		</protocol>
+	</protocols>
+</aradar>

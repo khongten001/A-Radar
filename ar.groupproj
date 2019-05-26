@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7C870626-811B-4D56-B05F-00ABFDD2C714}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="aradar.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="aradar">
+        <MSBuild Projects="aradar.dproj"/>
+    </Target>
+    <Target Name="aradar:Clean">
+        <MSBuild Projects="aradar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="aradar:Make">
+        <MSBuild Projects="aradar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="aradar"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="aradar:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="aradar:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

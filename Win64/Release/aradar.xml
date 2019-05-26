@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<aradar><properties cw="280" ch="419" groupView="1"/><groups><group id="2147483646" collapsed="0" iconID="1"><name value="General"/></group><group id="2147483647" collapsed="1" iconID="0"><name value="Favorites"/></group><group id="0" collapsed="1" iconID="1"><name value="New Group"/></group></groups><hosts><host groupId="2147483646" active="1"><name value="ftp"/><host value="grot.de"/><port value="21"/><interval value="5"/><timeout value="2"/><service value="5"/></host></hosts></aradar>

@@ -126,12 +126,16 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
-        <AppDPIAwarenessMode>PerMonitor</AppDPIAwarenessMode>
+        <VerInfo_MinorVer>1</VerInfo_MinorVer>
+        <VerInfo_Release>2</VerInfo_Release>
+        <VerInfo_Build>8</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=Chensky IT-Services;FileDescription=$(MSBuildProjectName);FileVersion=1.1.2.8;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_ExeOutput>D:\cryptoDira.com\0\A70F4593F-A711-4C1F-BEAF-FD480A8193A3</DCC_ExeOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <VerInfo_Release>2</VerInfo_Release>
-        <VerInfo_Build>8</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=oleg@chensky.de;FileDescription=$(MSBuildProjectName);FileVersion=1.1.2.8;InternalName=A-Radar;LegalCopyright=;LegalTrademarks=;OriginalFilename=aradar.exe;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.1;Comments=Powered by Oleg Chensky</VerInfo_Keys>
+        <VerInfo_Build>9</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=Chensky IT-Services;FileDescription=$(MSBuildProjectName);FileVersion=1.1.2.9;InternalName=A-Radar;LegalCopyright=;LegalTrademarks=;OriginalFilename=aradar.exe;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.1;Comments=Powered by Oleg Chensky</VerInfo_Keys>
         <DCC_ExeOutput>D:\cryptoDira.com\0\A70F4593F-A711-4C1F-BEAF-FD480A8193A3</DCC_ExeOutput>
         <Icon_MainIcon>aradar_Icon.ico</Icon_MainIcon>
         <VerInfo_Locale>1033</VerInfo_Locale>
@@ -201,6 +205,11 @@
             <Form>frmInfo</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="uEditAlert.pas">
+            <Form>frmEditAlert</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="P:\Repository\uWinSocket.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

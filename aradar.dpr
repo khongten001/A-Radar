@@ -27,7 +27,9 @@ uses
   uXMLTools in 'P:\Repository\uXMLTools.pas',
   uExportImport in 'uExportImport.pas' {frmExportImport},
   uEditCredential in 'uEditCredential.pas' {frmEditCredential},
-  uInfo in 'uInfo.pas' {frmInfo};
+  uInfo in 'uInfo.pas' {frmInfo},
+  uEditAlert in 'uEditAlert.pas' {frmEditAlert},
+  uWinSocket in 'P:\Repository\uWinSocket.pas';
 
 {$R *.res}
 

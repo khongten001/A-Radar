@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<aradar>
+	<properties stayOnTop="0" groupView="1" w="284" h="445" x="312" y="213" startMinimized="0" styleID="0"><esTightVNC value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><esFileZilla value="QzpcUHJvZ3JhbSBGaWxlc1xGaWxlWmlsbGEgRlRQIENsaWVudFxmaWxlemlsbGEuZXhl"/><esWinSCP value="RDpcRGF0YVxXaW5TQ1BcV2luU0NQLmV4ZQ=="/><esBrowser value="RDpcRGF0YVxGaXJlRm94XEFwcGxpY2F0aW9uXGZpcmVmb3guZXhl"/><esUltraVNC value="QzpcUHJvZ3JhbSBGaWxlc1x1dm5jIGJ2YmFcVWx0cmFWTkNcdm5jdmlld2VyLmV4ZQ=="/><esRealVNC/><esMSTSC/><esTeamViewer value="QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxUZWFtVmlld2VyXFRlYW1WaWV3ZXIuZXhl"/><esExplorer/>
+		<esBrowserParams value="LXByb2ZpbGUgRDpcRGF0YVxGaXJlRm94XERhdGFccHJvZmlsZQ=="/>
+		<esTotalCommander value="QzpcRGF0YVxUQ1x0Yy5leGU="/>
+		<esTotalCommanderParams value="L24gL2k9QzpcRGF0YVxUQ1xcd2luY21kLmluaSAvZj1DOlxEYXRhXFRDXFx3Y3hfZnRwLmluaQ=="/>
+	</properties>
+	<groups>
+		<group id="2147483647" collapsed="0" iconID="0" w="599" h="907" x="2660" y="229">
+			<name value="Favorites"/>
+			<memo value=""/></group>
+		<group id="2147483646" collapsed="0" iconID="1" w="582" h="406" x="2585" y="224">
+			<name value="General"/>
+			<memo value="VE9EMDoNCg0KLSBTdGF0aXN0aWMNCi0gRXJyb3IgTVNHcw0KLSBSRFAgQ29tcGxldGUNCg0KDQoN&#xA;ClN0ZXZlbjoNCnN0ZXZlbmNoZW5za3kwMUBnbWFpbC5jb20NCmZlb2ZhbjQwNjk5DQoNCg=="/></group>
+		<group id="0" collapsed="0" iconID="21" w="806" h="927" x="1946" y="171">
+			<name value="Praxis &quot;Anna Kurganova&quot;"/>
+			<memo value=""/></group>
+		<group id="1" collapsed="1" iconID="24" w="661" h="915" x="1949" y="202">
+			<name value="Praxis &quot;Valentin Agadzanov&quot;"/>
+			<memo value=""/></group>
+		<group id="2" collapsed="1" iconID="19" w="582" h="887" x="2268" y="270">
+			<name value="QAG Direktwerbung GmbH"/>
+			<memo value=""/></group>
+		<group id="3" collapsed="0" iconID="15" w="512" h="707" x="1972" y="197">
+			<name value="SaunaMarkt"/>
+			<memo value=""/></group>
+		<group id="4" collapsed="0" iconID="5" w="582" h="406" x="1274" y="439">
+			<name value="Therapiezentrum Düsseldorf"/>
+			<memo value=""/>
+		</group>
+		<group id="6" collapsed="0" iconID="475" w="582" h="406" x="2024" y="249">
+			<name value="UA"/>
+			<memo value=""/>
+		</group>
+		<group id="5" collapsed="0" iconID="173" w="1130" h="685" x="2050" y="496">
+			<name value="Local"/>
+			<memo value=""/>
+		</group>
+		<group id="7" collapsed="0" iconID="81" w="582" h="406" x="2024" y="249">
+			<name value="Chensky EDV-Services"/>
+			<memo value=""/>
+		</group>
+		<group id="8" collapsed="0" iconID="27" w="582" h="406" x="1946" y="171">
+			<name value="WordPress"/>
+			<memo value=""/></group>
+		<group id="9" collapsed="0" iconID="2"><name value="LogosConcept"/></group><group id="10" collapsed="0" iconID="2"><name value="PolarGrid"/></group></groups>
+	<hosts>
+		<host groupId="7" active="0" id="{CF2FCB04-67BE-4800-B1DA-2C00F29B1972}"><service value="2"/><name value="OC all-incl.com FTP"/><host value="w00b0aad.kasserver.com"/><port value="21"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="w00b0aad"/><password value="amZhGHfF46ANxNMC"/><memo value="ZnRwOi8vdzAwYjBhYWQ6YW1aaEdIZkY0NkFOeE5NQ0A4NS4xMy4xMzguMjI5OjIxLw=="/><admin value="0"/><fullScreen value="1"/><public value="0"/><width value=""/><height value=""/><protocol value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><openWith value="1"/><resources value=""/><openWithPath value="C:\Program Files\FileZilla FTP Client\filezilla.exe"/><maximized value="1"/>
+			<receiveString value=""/>
+			<receiveStringResult/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<runAsAdmin value="1"/>
+			<soft value="{DDEDA0F0-A806-4797-93AE-DE2D8FCAFE6A}"/><protocolId value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><softwareId/><softId value="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"/></host><host groupId="7" active="0" id="{0A124BC8-0D22-4B9F-95BE-F5766E44EEBB}"><service value="2"/><protocol value="5"/><name value="OC Yandex"/><host value="webdav.yandex.ru"/><resources value="/"/><port value="443"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="oleg.chensky"/><password value="Smiles"/><admin value="0"/><fullScreen value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="5"/><memo value=""/><maximized value="0"/>
+			<sendReceive value="0"/>
+			<sendString value=""/>
+			<receiveString value=""/>
+			<runAsAdmin value="0"/>
+			<protocolId value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><softwareId/><softId value="{F3AC316D-05EF-435D-817A-72C84B1566BD}"/></host>
+		<host groupId="2147483646" active="0"><service value=""/><protocol value=""/><name value="buch.grot.de"/><host value="buch.grot.de"/><resources value=""/><port value="57000"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value="Administrator"/><password value="Feofan40699"/><admin value="0"/><maximized value="0"/><public value="0"/><sendReceive value="0"/><runAsAdmin value="0"/><width value=""/><height value=""/><openWith value=""/><sendString value=""/><receiveString value=""/><memo value=""/><protocolId value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/><softId value="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"/><soft/></host><host groupId="7" active="0"><service value="2"/><protocol value="5"/><name value="Yandex"/><host value="www.yandex.ru"/><resources value="/"/><port value="443"/><interval value="60"/><errorInterval value="5"/><timeout value="2"/><username value=""/><password value=""/><admin value="0"/><maximized value="0"/><public value="0"/><width value=""/><height value=""/><openWith value="5"/><sendReceive value="0"/><sendString value=""/><receiveString value=""/><runAsAdmin value="0"/><memo value=""/><protocolId value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/><softId value="{F3AC316D-05EF-435D-817A-72C84B1566BD}"/></host></hosts>
+	<software x="594" y="321" w="417" h="426" lastPageIdx="1">
+		<soft id="{FAED4D3F-BA4D-4E37-9F16-60E7BD993707}"><name value="SW50ZXJuZXQgRXhwbG9yZXI="/><path value="aWV4cGxvcmUuZXhl"/><params value="JVVSSSU="/><supported value="1"/><protocols><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols></soft><soft id="{0C3E2C65-B7FA-4874-A134-5B35B8BFE1BF}"><name value="TWljcm9zb2Z0IFJlbW90ZSBEZXNrdG9w"/><path value="bXN0c2MuZXhl"/><params value="JVJEUEZJTEVOQU1FJQ=="/><supported value="1"/><protocols><protocol value="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}"/></protocols></soft><soft id="{EFF711AA-9121-4546-905C-3FC5C7B440EB}"><name value="Vml2YWxkaQ=="/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNzdBQTE5NDEtRUMxNi00RDc2LUI4QjItMjBCREMwODk2RURG&#xA;XEFwcGxpY2F0aW9uXHZpdmFsZGkuZXhl"/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{516FB366-0AD0-418D-918A-CCC8C1482311}"/><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols></soft><soft id="{A32CABB0-DD17-4A3C-9798-A1C72D36CF8E}"><name value="VGhpZ2h0Vk5D"/><path value="QzpcUHJvZ3JhbSBGaWxlc1xUaWdodFZOQ1x0dm52aWV3ZXIuZXhl"/><params value="LW9wdGlvbnNmaWxlPSIlVk5DRklMRU5BTUUlIiAtcGFzc3dvcmQ9JVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols></soft><soft id="{A8BB6467-58F8-40DC-8DED-B16D19734C23}"><name value="VWx0cmFWTkM="/><path value=""/><params value="JUhPU1QlOiVQT1JUJSAtcGFzc3dvcmQgJVBBU1NXT1JEJQ=="/><supported value="0"/><protocols><protocol value="{407A8DAF-2628-4441-93C5-72EE62A291CA}"/></protocols></soft><soft id="{CC3698A7-8D52-42A7-8CE0-16CBE5521981}"><name value="VG90YWwgQ29tbWFuZGVy"/><path value="RDpcY3J5cHRvRGlyYS5jb21cMFxBNDRDMzNCOUUtM0RFQy00NkUxLUI0QUYtQUYyMkNENkE2MjRB&#xA;XHRjLmV4ZQ=="/><params value="L24gL2k9JVBBVEglXHdpbmNtZC5pbmkgL2Y9JVBBVEglXHdjeF9mdHAuaW5pIC9PIC9SPSVVUkkl&#xA;"/><supported value="0"/><protocols><protocol value="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"/><protocol value="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"/></protocols></soft><soft id="{F3AC316D-05EF-435D-817A-72C84B1566BD}"><name value="U3lzdGVtIEJyb3dzZXI="/><path value=""/><params value="JVVSSSU="/><supported value="0"/><protocols><protocol value="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"/><protocol value="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"/></protocols></soft></software>
+	<protocols>
+		<protocol id="{F79AD4FF-1B24-4098-92EC-8B0B8CB4B730}">
+			<name value="UmVtb3RlIERlc2t0b3AgKFJEUCk="/>
+			<port value="3389"/>
+			<uriText/><scheme/></protocol>
+		<protocol id="{407A8DAF-2628-4441-93C5-72EE62A291CA}"><name value="VmlydHVhbCBOZXR3b3JrIENvbXB1dGluZyAoVk5DKQ=="/><port value="5900"/><uriText/></protocol><protocol id="{766992C4-3C7A-4199-B63B-D22DBE8AB637}"><name value="RmlsZSBUcmFuc2ZlciAoRlRQKQ=="/><port value="21"/><uriText value="ftp://"/><scheme value="ftp://"/></protocol><protocol id="{6CDFD875-A2EE-4C40-BC50-DF9D75BD106C}"><name value="U2VjdXJlIEZpbGUgVHJhbnNmZXIgKFNGVFAp"/><port value="22"/><uriText value="sftp://"/><scheme value="sftp://"/></protocol><protocol id="{516FB366-0AD0-418D-918A-CCC8C1482311}"><name value="V2ViLWJhc2VkIERpc3RyaWJ1dGVkIEF1dGhvcmluZyBhbmQgVmVyc2lvbmluZyAoV2ViREFWKQ=="/><port value="443"/><uriText value="https://"/><scheme value="https://"/></protocol><protocol id="{76D82A76-2BFB-4369-9900-23E82CE75FDD}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVyIChIVFRQKQ=="/><port value="80"/><uriText value="http://"/><scheme value="http://"/></protocol><protocol id="{8486D2F8-56A0-4280-8188-CBC4339A0BD7}"><name value="SHlwZXJ0ZXh0IFRyYW5zZmVyIFNlY3VyZSAoSFRUUFMp"/><port value="443"/><uriText value="https://"/><scheme value="https://"/></protocol><protocol id="{6280DBB2-00F9-410B-AC95-8D2FD80FDB17}"><name value="U2VjdXJlIFNoZWxsIChTU0gp"/><port value="22"/><uriText/><scheme/></protocol></protocols></aradar>
